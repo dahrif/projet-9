@@ -1,0 +1,26 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bravada_settings">
+			<key name="theme_lpposts_more" />
+			<key name="theme_lpslidershortcode" />
+			<key name="theme_lpslidertitle" />
+			<key name="theme_lpslidertext" />
+			<key name="theme_lpslidercta1text" />
+			<key name="theme_lpslidercta1link" />
+			<key name="theme_lpslidercta2text" />
+			<key name="theme_lpslidercta2link" />
+			<key name="theme_lpblockmaintitle1" />
+			<key name="theme_lpblockmaindesc1" />
+			<key name="theme_lpblocksreadmore1" />
+			<key name="theme_lpboxmaintitle1" />
+			<key name="theme_lpboxmaintitle2" />
+			<key name="theme_lpboxmaindesc1" />
+			<key name="theme_lpboxmaindesc2" />
+			<key name="theme_lpboxreadmore1" />
+			<key name="theme_lpboxreadmore2" />
+			<key name="theme_copyright" />
+			<key name="theme_excerptdots" />
+			<key name="theme_excerptcont" />
+        </key>
+    </admin-texts>
+</wpml-config>

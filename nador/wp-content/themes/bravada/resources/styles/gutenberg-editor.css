@@ -1,0 +1,8 @@
+/**
+ * Used to style the Gutenberg blocks editor
+ *
+ * @package Bravada
+ */
+ 
+/* This file does not currently need to hold any styling
+   but is required for the wp_localize_script() call */

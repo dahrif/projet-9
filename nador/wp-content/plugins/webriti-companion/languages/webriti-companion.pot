@@ -1,0 +1,2334 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"webriti-companion "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2021-05-05 14:32+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.4.2\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: inc/appointment/additional_feature.php:8
+#: inc/appointment/additional_feature.php:10
+msgid ""
+"Left widget area below "
+"slider"
+msgstr ""
+
+#: inc/appointment/additional_feature.php:17
+#: inc/appointment/additional_feature.php:19
+msgid ""
+"Right widget area below "
+"slider"
+msgstr ""
+
+#: inc/appointment/additional_feature.php:26
+#: inc/appointment/additional_feature.php:28
+msgid ""
+"Center widget area below "
+"slider"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:9
+#: inc/appointment/features/feature-footer-callout-section.php:16
+msgid ""
+"Footer callout settings"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:36
+msgid "Hide footer callout"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:46
+msgid ""
+"Sed ut perspiciatis unde"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:53
+msgid "Callout Header"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:60
+msgid "fa-phone"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:67
+#: inc/appointment/features/feature-footer-callout-section.php:119
+#: inc/appointment/features/feature-footer-callout-section.php:171
+#: inc/appointment/features/feature-service-section.php:92
+#: inc/appointment/features/feature-service-section.php:154
+#: inc/appointment/features/feature-service-section.php:215
+#: inc/appointment/features/feature-service-section.php:276
+#: inc/appointment/features/feature-service-section.php:338
+#: inc/appointment/features/feature-service-section.php:399
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:684
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:752
+msgid "Icon"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:75
+msgid ""
+"Non proident, sunt in "
+"culpa"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:84
+#: inc/appointment/features/feature-footer-callout-section.php:136
+#: inc/appointment/features/feature-footer-callout-section.php:188
+#: inc/appointment/features/feature-homecallout-section.php:51
+#: inc/appointment/features/feature-service-section.php:52
+#: inc/appointment/features/feature-service-section.php:110
+#: inc/appointment/features/feature-service-section.php:172
+#: inc/appointment/features/feature-service-section.php:233
+#: inc/appointment/features/feature-service-section.php:294
+#: inc/appointment/features/feature-service-section.php:356
+#: inc/appointment/features/feature-service-section.php:417
+#: inc/busiprof/features/feature-project-section.php:35
+#: inc/busiprof/features/feature-service-section.php:48
+#: inc/busiprof/features/feature-slider-section.php:96
+#: inc/busiprof/features/feature-testi-section.php:29
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:303
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:503
+#: inc/elitepress/features/feature-homecallout-section.php:44
+#: inc/elitepress/features/feature-project-section.php:45
+#: inc/elitepress/features/feature-service-section.php:45
+#: inc/quality/features/feature-project-section.php:46
+#: inc/quality/features/feature-project-section.php:95
+#: inc/quality/features/feature-project-section.php:142
+#: inc/quality/features/feature-project-section.php:190
+#: inc/quality/features/feature-project-section.php:239
+#: inc/quality/features/feature-project-section.php:286
+#: inc/quality/features/feature-service-section.php:47
+#: inc/quality/features/feature-testimonial-section.php:51
+#: inc/rambo/features/feature-project-section.php:41
+#: inc/rambo/features/feature-project-section.php:88
+#: inc/rambo/features/feature-project-section.php:134
+#: inc/rambo/features/feature-project-section.php:180
+#: inc/rambo/features/feature-project-section.php:226
+#: inc/rambo/features/feature-service-section.php:45
+#: inc/rambo/features/feature-slider-section.php:72
+#: inc/spasalon/features/feature-project-section.php:46
+#: inc/spasalon/features/feature-project-section.php:97
+#: inc/spasalon/features/feature-project-section.php:150
+#: inc/spasalon/features/feature-project-section.php:204
+#: inc/spasalon/features/feature-project-section.php:259
+#: inc/spasalon/features/feature-project-section.php:313
+#: inc/spasalon/features/feature-service-section.php:46
+#: inc/wallstreet/features/feature-project-section.php:50
+#: inc/wallstreet/features/feature-project-section.php:124
+#: inc/wallstreet/features/feature-project-section.php:190
+#: inc/wallstreet/features/feature-project-section.php:255
+#: inc/wallstreet/features/feature-service-section.php:99
+#: inc/wallstreet/features/feature-service-section.php:164
+#: inc/wallstreet/features/feature-service-section.php:228
+#: inc/wallstreet/features/feature-slider-section.php:71
+msgid "Title"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:93
+msgid "+99 999 99 999"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:102
+#: inc/appointment/features/feature-footer-callout-section.php:154
+#: inc/appointment/features/feature-footer-callout-section.php:206
+#: inc/appointment/features/feature-homecallout-section.php:66
+#: inc/appointment/features/feature-service-section.php:69
+#: inc/appointment/features/feature-service-section.php:128
+#: inc/appointment/features/feature-service-section.php:190
+#: inc/appointment/features/feature-service-section.php:251
+#: inc/appointment/features/feature-service-section.php:312
+#: inc/appointment/features/feature-service-section.php:374
+#: inc/appointment/features/feature-service-section.php:435
+#: inc/busiprof/features/feature-project-section.php:50
+#: inc/busiprof/features/feature-project-section.php:99
+#: inc/busiprof/features/feature-project-section.php:162
+#: inc/busiprof/features/feature-project-section.php:225
+#: inc/busiprof/features/feature-project-section.php:287
+#: inc/busiprof/features/feature-service-section.php:67
+#: inc/busiprof/features/feature-slider-section.php:111
+#: inc/busiprof/features/feature-testi-section.php:38
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:317
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:517
+#: inc/elitepress/features/feature-homecallout-section.php:59
+#: inc/elitepress/features/feature-project-section.php:61
+#: inc/elitepress/features/feature-project-section.php:116
+#: inc/elitepress/features/feature-project-section.php:170
+#: inc/elitepress/features/feature-project-section.php:225
+#: inc/elitepress/features/feature-service-section.php:62
+#: inc/quality/features/feature-project-section.php:61
+#: inc/quality/features/feature-project-section.php:109
+#: inc/quality/features/feature-project-section.php:156
+#: inc/quality/features/feature-project-section.php:204
+#: inc/quality/features/feature-project-section.php:253
+#: inc/quality/features/feature-project-section.php:300
+#: inc/quality/features/feature-service-section.php:65
+#: inc/quality/features/feature-testimonial-section.php:66
+#: inc/rambo/features/feature-cta-section.php:28
+#: inc/rambo/features/feature-project-section.php:57
+#: inc/rambo/features/feature-project-section.php:103
+#: inc/rambo/features/feature-project-section.php:149
+#: inc/rambo/features/feature-project-section.php:195
+#: inc/rambo/features/feature-project-section.php:241
+#: inc/rambo/features/feature-service-section.php:59
+#: inc/rambo/features/feature-slider-section.php:90
+#: inc/spasalon/features/feature-project-section.php:64
+#: inc/spasalon/features/feature-project-section.php:114
+#: inc/spasalon/features/feature-project-section.php:167
+#: inc/spasalon/features/feature-project-section.php:222
+#: inc/spasalon/features/feature-project-section.php:277
+#: inc/spasalon/features/feature-project-section.php:331
+#: inc/spasalon/features/feature-service-section.php:62
+#: inc/wallstreet/features/feature-project-section.php:69
+#: inc/wallstreet/features/feature-project-section.php:142
+#: inc/wallstreet/features/feature-project-section.php:208
+#: inc/wallstreet/features/feature-project-section.php:273
+#: inc/wallstreet/features/feature-service-section.php:117
+#: inc/wallstreet/features/feature-service-section.php:182
+#: inc/wallstreet/features/feature-service-section.php:246
+#: inc/wallstreet/features/feature-slider-section.php:101
+msgid "Description"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:112
+msgid "fa-clock-o"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:127
+msgid ""
+"Neque porro quisquam"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:145
+msgid ""
+"Ullamco laboris nisi"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:164
+msgid "fa-envelope"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:179
+msgid ""
+"Ipsum quia dolor sit amet"
+msgstr ""
+
+#: inc/appointment/features/feature-footer-callout-section.php:197
+msgid "abc@example.com"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:9
+#: inc/appointment/features/feature-homecallout-section.php:15
+msgid ""
+"Contact callout settings"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:34
+msgid ""
+"Hide callout section "
+"from homepage"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:44
+msgid ""
+"Etiam eu nisi quis "
+"lectus bibend?"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:79
+#: inc/quality/features/feature-funfact-section.php:31
+#: inc/quality/features/feature-testimonial-section.php:35
+msgid "Background Image"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:90
+msgid "Button one"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:97
+msgid "Morbi fermentum"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:107
+#: inc/appointment/features/feature-homecallout-section.php:166
+#: inc/busiprof/features/feature-service-section.php:102
+#: inc/busiprof/features/feature-slider-section.php:128
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:326
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:525
+#: inc/elitepress/features/feature-homecallout-section.php:73
+#: inc/rambo/features/feature-cta-section.php:47
+#: inc/rambo/features/feature-slider-section.php:107
+msgid "Button Text"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:115
+msgid "Button two"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:131
+#: inc/appointment/features/feature-homecallout-section.php:183
+#: inc/busiprof/features/feature-service-section.php:112
+#: inc/busiprof/features/feature-slider-section.php:144
+#: inc/elitepress/features/feature-homecallout-section.php:87
+#: inc/rambo/features/feature-cta-section.php:64
+#: inc/rambo/features/feature-slider-section.php:123
+msgid "Button Link"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:147
+#: inc/appointment/features/feature-homecallout-section.php:199
+#: inc/busiprof/features/feature-slider-section.php:160
+#: inc/elitepress/features/feature-homecallout-section.php:101
+#: inc/rambo/features/feature-cta-section.php:81
+#: inc/rambo/features/feature-slider-section.php:139
+msgid ""
+"Open link in new tab"
+msgstr ""
+
+#: inc/appointment/features/feature-homecallout-section.php:156
+msgid "Fringilla in Magna"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:9
+#: inc/busiprof/features/feature-service-section.php:15
+#: inc/elitepress/features/feature-service-section.php:8
+#: inc/quality/features/feature-service-section.php:8
+#: inc/rambo/features/feature-service-section.php:15
+#: inc/wallstreet/features/feature-service-section.php:7
+msgid "Service settings"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:14
+#: inc/wallstreet/features/feature-heading-section.php:8
+msgid "Section Heading"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:34
+msgid ""
+"Hide service section "
+"from homepage"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:43
+#: inc/busiprof/features/feature-project-section.php:29
+#: inc/busiprof/features/feature-project-section.php:60
+#: inc/busiprof/features/feature-project-section.php:122
+#: inc/busiprof/features/feature-project-section.php:185
+#: inc/busiprof/features/feature-project-section.php:248
+#: inc/quality/customizer.php:36
+#: inc/wallstreet/features/feature-heading-section.php:73
+msgid "Lorem Ipsum"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:61
+#: inc/elitepress/features/feature-service-section.php:54
+msgid ""
+"Duis aute irure dolor in "
+"reprehenderit in "
+"voluptate velit cillum "
+"dolore eu fugiat nulla "
+"pariatur. Excepteur sint "
+"occaecat cupid non "
+"proident, sunt in culpa "
+"qui officia deserunt "
+"mollit anim id est "
+"laborum."
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:78
+msgid "Service section one"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:101
+#: inc/appointment/features/feature-service-section.php:163
+#: inc/appointment/features/feature-service-section.php:224
+#: inc/appointment/features/feature-service-section.php:285
+#: inc/appointment/features/feature-service-section.php:347
+#: inc/appointment/features/feature-service-section.php:408
+msgid "Quam in nibh"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:119
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipisicing elit. Consec "
+"tetur adipisicing elit "
+"dignissim dapib tumst"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:136
+msgid "Service section two"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:181
+#: inc/appointment/features/feature-service-section.php:242
+#: inc/appointment/features/feature-service-section.php:303
+#: inc/appointment/features/feature-service-section.php:365
+#: inc/appointment/features/feature-service-section.php:426
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipisicing elit. Consec "
+"tetur adipisicing elit "
+"dignissim dapib tumst."
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:197
+msgid ""
+"Service section three"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:259
+msgid ""
+"Service section four"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:320
+msgid ""
+"Service section five"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:381
+msgid "Service section six"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:535
+#: inc/appointment/features/feature-service-section.php:639
+#: inc/appointment/features/feature-service-section.php:742
+#: inc/appointment/features/feature-service-section.php:845
+#: inc/busiprof/features/feature-service-section.php:189
+#: inc/busiprof/features/feature-service-section.php:239
+#: inc/busiprof/features/feature-service-section.php:288
+#: inc/quality/features/feature-service-section.php:219
+#: inc/quality/features/feature-service-section.php:326
+#: inc/quality/features/feature-service-section.php:433
+#: inc/quality/features/feature-service-section.php:540
+#: inc/wallstreet/features/feature-service-section.php:349
+#: inc/wallstreet/features/feature-service-section.php:462
+msgid ""
+"Service Layout Setting"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:540
+#: inc/appointment/features/feature-service-section.php:644
+#: inc/appointment/features/feature-service-section.php:747
+#: inc/appointment/features/feature-service-section.php:850
+#: inc/busiprof/features/feature-service-section.php:194
+#: inc/busiprof/features/feature-service-section.php:244
+#: inc/busiprof/features/feature-service-section.php:293
+#: inc/quality/features/feature-service-section.php:224
+#: inc/quality/features/feature-service-section.php:331
+#: inc/quality/features/feature-service-section.php:438
+#: inc/quality/features/feature-service-section.php:545
+#: inc/wallstreet/features/feature-service-section.php:354
+#: inc/wallstreet/features/feature-service-section.php:467
+msgid "Service Design 1"
+msgstr ""
+
+#: inc/appointment/features/feature-service-section.php:544
+#: inc/appointment/features/feature-service-section.php:648
+#: inc/appointment/features/feature-service-section.php:751
+#: inc/appointment/features/feature-service-section.php:854
+#: inc/busiprof/features/feature-service-section.php:198
+#: inc/busiprof/features/feature-service-section.php:248
+#: inc/busiprof/features/feature-service-section.php:297
+#: inc/quality/features/feature-service-section.php:228
+#: inc/quality/features/feature-service-section.php:335
+#: inc/quality/features/feature-service-section.php:442
+#: inc/quality/features/feature-service-section.php:549
+#: inc/wallstreet/features/feature-service-section.php:358
+#: inc/wallstreet/features/feature-service-section.php:471
+msgid "Service Design 2"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:8
+#: inc/busiprof/features/feature-slider-section.php:7
+#: inc/dreamspa/features/feature-slider-section.php:9
+#: inc/elitepress/features/feature-slider-section.php:53
+#: inc/rambo/features/feature-slider-section.php:10
+#: inc/spasalon/features/feature-slider-section.php:8
+msgid "Slider settings"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:14
+msgid ""
+"Featured slider settings"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:33
+msgid ""
+"Hide slider from homepage"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:54
+msgid "Select slider type"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:57
+msgid "Demo slider"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:58
+msgid "Category slider"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:76
+msgid ""
+"Select category for "
+"slider"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:80
+msgid ""
+"Please select category"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:91
+#: inc/appointment/features/feature-slider-section.php:103
+msgid "slide"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:101
+msgid ""
+"Select slider animation"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:103
+msgid "fade"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:121
+msgid "Duration"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:139
+msgid ""
+"Input number of slides"
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:49
+msgid "image1"
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:51
+#: inc/appointment/sections/appointment-slider-section.php:59
+#: inc/appointment/sections/appointment-slider-section.php:67
+msgid ""
+"Donec Maximus Rhoncus"
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:52
+#: inc/appointment/sections/appointment-slider-section.php:60
+#: inc/appointment/sections/appointment-slider-section.php:68
+msgid ""
+"In neque ex, euismod sed "
+"sagittis et, ultrices "
+"vel diam. Donec vel "
+"mattis enim vel ipsum "
+"mattis fringilla."
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:53
+#: inc/appointment/sections/appointment-slider-section.php:61
+#: inc/appointment/sections/appointment-slider-section.php:69
+msgid "Velit Quis"
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:57
+msgid "image2"
+msgstr ""
+
+#: inc/appointment/sections/appointment-slider-section.php:65
+msgid "image3"
+msgstr ""
+
+#: inc/busiprof/customizer.php:66
+#: inc/busiprof/customizer.php:115
+#: inc/busiprof/sections/busiprof-service-section.php:398
+msgid "Quis Urna"
+msgstr ""
+
+#: inc/busiprof/customizer.php:67
+#: inc/busiprof/customizer.php:76
+#: inc/busiprof/customizer.php:85
+#: inc/busiprof/customizer.php:95
+#: inc/busiprof/customizer.php:116
+#: inc/busiprof/customizer.php:125
+#: inc/busiprof/customizer.php:134
+#: inc/busiprof/customizer.php:144
+#: inc/busiprof/sections/busiprof-service-section.php:413
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipiscing elit. Etiam "
+"volutpat pretium nulla, "
+"vitae molestie arcu "
+"dignissim in."
+msgstr ""
+
+#: inc/busiprof/customizer.php:75
+#: inc/busiprof/customizer.php:124
+#: inc/busiprof/sections/busiprof-service-section.php:398
+msgid "Sit Amet Aliquet"
+msgstr ""
+
+#: inc/busiprof/customizer.php:84
+#: inc/busiprof/customizer.php:133
+#: inc/busiprof/sections/busiprof-service-section.php:398
+msgid "Sed non massa"
+msgstr ""
+
+#: inc/busiprof/customizer.php:94
+#: inc/busiprof/customizer.php:143
+#: inc/busiprof/sections/busiprof-service-section.php:398
+msgid "Velit Tempus"
+msgstr ""
+
+#: inc/busiprof/customizer.php:163
+#: inc/busiprof/sections/busiprof-testi-section.php:11
+#: inc/busiprof/sections/busiprof-testi-section.php:175
+msgid "Robert Johnson"
+msgstr ""
+
+#: inc/busiprof/customizer.php:164
+#: inc/busiprof/customizer.php:174
+#: inc/busiprof/sections/busiprof-testi-section.php:12
+#: inc/busiprof/sections/busiprof-testi-section.php:22
+msgid ""
+"We are group of "
+"passionate designers and "
+"developers who really "
+"love to create wordpress "
+"themes with amazing "
+"support. Widest laborum "
+"dolo rumes fugats "
+"untras. Ethar omnis iste "
+"natus error sit "
+"voluptatem "
+"accusantiexplicabo. Nemo "
+"enim ipsam eque porro "
+"quisquam est, qui "
+"dolorem ipsum am quaerat "
+"voluptatem..."
+msgstr ""
+
+#: inc/busiprof/customizer.php:165
+#: inc/busiprof/sections/busiprof-testi-section.php:13
+msgid "CEO"
+msgstr ""
+
+#: inc/busiprof/customizer.php:173
+#: inc/busiprof/sections/busiprof-testi-section.php:21
+#: inc/busiprof/sections/busiprof-testi-section.php:175
+msgid "Annah Doe"
+msgstr ""
+
+#: inc/busiprof/customizer.php:175
+#: inc/busiprof/sections/busiprof-testi-section.php:23
+#: inc/busiprof/sections/busiprof-testi-section.php:176
+msgid "Team Leader"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:7
+msgid "Infobar settings"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:15
+msgid "Enable Infobar"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:19
+#: inc/busiprof/features/feature-project-section.php:21
+#: inc/busiprof/features/feature-service-section.php:29
+#: inc/busiprof/features/feature-slider-section.php:19
+#: inc/busiprof/features/feature-testi-section.php:19
+msgid "ON"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:20
+#: inc/busiprof/features/feature-project-section.php:22
+#: inc/busiprof/features/feature-service-section.php:30
+#: inc/busiprof/features/feature-slider-section.php:20
+#: inc/busiprof/features/feature-testi-section.php:20
+msgid "OFF"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:26
+msgid ""
+"Busiprof: Lorem ipsum "
+"dolor sit amet, "
+"consectetur adipiscing "
+"elit"
+msgstr ""
+
+#: inc/busiprof/features/feature-cta-section.php:29
+msgid "Infobar text"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:8
+#: inc/elitepress/features/feature-project-section.php:8
+#: inc/quality/features/feature-project-section.php:8
+#: inc/rambo/features/feature-project-section.php:7
+#: inc/spasalon/features/feature-project-section.php:8
+#: inc/wallstreet/features/feature-project-section.php:8
+#: inc/wallstreet/features/feature-project-section.php:14
+msgid "Project settings"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:17
+#: inc/quality/features/feature-project-section.php:29
+#: inc/spasalon/features/feature-project-section.php:28
+msgid ""
+"Enable Home Project "
+"section"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:44
+#: inc/busiprof/features/feature-service-section.php:59
+#: inc/busiprof/features/feature-slider-section.php:105
+msgid ""
+"Curabitur sit amet neque "
+"consequat, rutrum urna "
+"at, euismod ipsum. Nam "
+"fermentum tellus tortor, "
+"et varius ante posuere "
+"eu."
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:66
+#: inc/elitepress/features/feature-project-section.php:79
+msgid "Project One"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:81
+#: inc/busiprof/features/feature-project-section.php:143
+#: inc/busiprof/features/feature-project-section.php:206
+#: inc/busiprof/features/feature-project-section.php:269
+#: inc/busiprof/features/feature-slider-section.php:79
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:707
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:753
+#: inc/elitepress/features/feature-project-section.php:96
+#: inc/elitepress/features/feature-project-section.php:150
+#: inc/elitepress/features/feature-project-section.php:206
+#: inc/quality/features/feature-project-section.php:76
+#: inc/quality/features/feature-project-section.php:124
+#: inc/quality/features/feature-project-section.php:172
+#: inc/quality/features/feature-project-section.php:220
+#: inc/quality/features/feature-project-section.php:269
+#: inc/quality/features/feature-testimonial-section.php:108
+#: inc/rambo/features/feature-project-section.php:71
+#: inc/rambo/features/feature-project-section.php:117
+#: inc/rambo/features/feature-project-section.php:163
+#: inc/rambo/features/feature-project-section.php:209
+#: inc/rambo/features/feature-slider-section.php:52
+#: inc/spasalon/features/feature-project-section.php:81
+#: inc/spasalon/features/feature-project-section.php:130
+#: inc/spasalon/features/feature-project-section.php:185
+#: inc/spasalon/features/feature-project-section.php:239
+#: inc/spasalon/features/feature-project-section.php:294
+#: inc/wallstreet/features/feature-project-section.php:98
+#: inc/wallstreet/features/feature-project-section.php:161
+#: inc/wallstreet/features/feature-project-section.php:227
+#: inc/wallstreet/features/feature-project-section.php:292
+#: inc/wallstreet/features/feature-service-section.php:77
+#: inc/wallstreet/features/feature-service-section.php:143
+#: inc/wallstreet/features/feature-service-section.php:207
+#: inc/wallstreet/features/feature-slider-section.php:53
+msgid "Image"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:93
+#: inc/busiprof/features/feature-project-section.php:156
+#: inc/busiprof/features/feature-project-section.php:219
+#: inc/busiprof/features/feature-project-section.php:281
+msgid ""
+"Aliquam erat volutpat "
+"erat"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:113
+#: inc/busiprof/features/feature-project-section.php:176
+#: inc/busiprof/features/feature-project-section.php:239
+#: inc/busiprof/features/feature-project-section.php:301
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:388
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:587
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:776
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:798
+msgid "Link"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:128
+#: inc/elitepress/features/feature-project-section.php:134
+msgid "Project Two"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:191
+#: inc/elitepress/features/feature-project-section.php:187
+msgid "Project Three"
+msgstr ""
+
+#: inc/busiprof/features/feature-project-section.php:254
+msgid "Project Four"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:24
+msgid ""
+"Enable Services on "
+"homepage"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:39
+msgid "Ligula Fringilla"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:82
+#: inc/quality/features/feature-service-section.php:78
+#: inc/rambo/features/feature-service-section.php:71
+#: inc/spasalon/features/feature-service-section.php:78
+msgid "Service content"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:85
+#: inc/elitepress/features/feature-service-section.php:78
+#: inc/rambo/features/feature-service-section.php:74
+msgid "Add new Service"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:86
+#: inc/elitepress/features/feature-service-section.php:79
+#: inc/quality/features/feature-service-section.php:81
+#: inc/rambo/features/feature-service-section.php:75
+#: inc/spasalon/features/feature-service-section.php:81
+msgid "Service"
+msgstr ""
+
+#: inc/busiprof/features/feature-service-section.php:99
+msgid "Etiam Cursus"
+msgstr ""
+
+#: inc/busiprof/features/feature-slider-section.php:15
+msgid "Enable slider"
+msgstr ""
+
+#: inc/busiprof/features/feature-slider-section.php:90
+msgid ""
+"Sollicitudin commodo"
+msgstr ""
+
+#: inc/busiprof/features/feature-slider-section.php:122
+msgid "Sit Amet"
+msgstr ""
+
+#: inc/busiprof/features/feature-slider-section.php:138
+#: inc/rambo/features/feature-slider-section.php:117
+msgid "#"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:7
+#: inc/quality/features/feature-testimonial-section.php:8
+msgid ""
+"Testimonial settings"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:15
+msgid ""
+"Enable Home Testimonial "
+"section"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:26
+msgid "Aliquam erat vol"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:35
+msgid ""
+"We are a group of "
+"passionate designers and "
+"developers"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:49
+msgid "Testimonial content"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:51
+msgid "Add new Testimonial"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:52
+msgid "Testimonial"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:110
+#: inc/busiprof/features/feature-testi-section.php:159
+#: inc/busiprof/features/feature-testi-section.php:208
+msgid ""
+"Testimonial Layout "
+"Setting"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:115
+#: inc/busiprof/features/feature-testi-section.php:164
+#: inc/busiprof/features/feature-testi-section.php:213
+msgid ""
+"Testimonial Design 1"
+msgstr ""
+
+#: inc/busiprof/features/feature-testi-section.php:119
+#: inc/busiprof/features/feature-testi-section.php:168
+#: inc/busiprof/features/feature-testi-section.php:217
+msgid ""
+"Testimonial Design 2"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:175
+msgid "Natelie Portman"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:175
+msgid "Charlie Sun"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:176
+msgid "CEO & Founder"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:176
+msgid "Sales & Marketing"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:176
+msgid "Sales Executive"
+msgstr ""
+
+#: inc/busiprof/sections/busiprof-testi-section.php:191
+msgid ""
+"Curabitur sit amet neque "
+"consequat, rutrum urna "
+"at, euismod ipsum. Nam "
+"fermentum tellus tortor, "
+"et varius ante posuere "
+"eu. Widest laborum dolo "
+"rumes fugats untras. "
+"Ethar omnis iste natus "
+"error sit voluptatem "
+"accusantiexplicabo. Nemo "
+"enim ipsam eque porro "
+"quisquam est, qui "
+"dolorem ipsum am quaerat "
+"voluptatem..."
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Add new field"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:43
+msgid "Customizer Repeater"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:310
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:510
+msgid "Subtitle"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:337
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:536
+msgid "Banner Title"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:347
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:546
+msgid "Banner Subtitle"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:357
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:556
+msgid "Banner Description"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:367
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:566
+msgid "Banner Call Title"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:377
+msgid "Banner Call number"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:407
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:605
+msgid "Video Url"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:431
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:495
+msgid "Color"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:441
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:616
+msgid "Shortcode"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:449
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:625
+#: inc/quality/features/feature-testimonial-section.php:135
+msgid "Designation"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:465
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:636
+msgid "Delete field"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:576
+msgid "Banner Call Number"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:673
+msgid ""
+"Open link in new tab:"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:689
+#, php-format
+msgid ""
+"Note: Some icons may not "
+"be displayed here. You "
+"can see the full list of "
+"icons at %1$s."
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:690
+msgid ""
+"http://fontawesome.io/"
+"icons/"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:710
+msgid "Upload Image"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:719
+msgid "Slide Format"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:723
+msgid "Standard"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:727
+msgid "Aside"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:731
+msgid "Quote"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:735
+msgid "Status"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:739
+msgid "Video"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:749
+msgid "Image type"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:754
+msgid "None"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:762
+msgid "Social icons"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:779
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:809
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:784
+#: inc/controls/customizer-repeater/class/customizer-repeater-control.php:817
+msgid "Add Icon"
+msgstr ""
+
+#: inc/controls/customizer-repeater/inc/icons.php:1
+msgid "Type to filter"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:30
+#: inc/spasalon/features/feature-slider-section.php:26
+msgid ""
+"Enable Home slider "
+"section"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:53
+#: inc/spasalon/features/feature-slider-section.php:154
+msgid "Slider Image"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:78
+msgid "Slider title"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:94
+msgid "Slider description"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:106
+msgid ""
+"Slider caption alignment"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:129
+msgid ""
+"Slider caption title "
+"color"
+msgstr ""
+
+#: inc/dreamspa/features/feature-slider-section.php:149
+msgid ""
+"Slider caption "
+"description color"
+msgstr ""
+
+#: inc/dreamspa/sections/dreamspa-slider-section.php:35
+msgid ""
+"The Essence of Natural "
+"Beauty"
+msgstr ""
+
+#: inc/dreamspa/sections/dreamspa-slider-section.php:45
+msgid ""
+"We at Dream Spa provide "
+"services to the natural "
+"of the clients !"
+msgstr ""
+
+#: inc/elitepress/features/feature-homecallout-section.php:8
+msgid "Callout setting"
+msgstr ""
+
+#: inc/elitepress/features/feature-homecallout-section.php:29
+msgid ""
+"Enable Callout section "
+"on front page"
+msgstr ""
+
+#: inc/elitepress/features/feature-homecallout-section.php:38
+msgid ""
+"Integer condimentum "
+"fermentum."
+msgstr ""
+
+#: inc/elitepress/features/feature-homecallout-section.php:53
+msgid ""
+"Reprehen derit in "
+"voluptate velit cillum "
+"dolore eu fugiat nulla "
+"pariaturs  sint occaecat "
+"proidentse."
+msgstr ""
+
+#: inc/elitepress/features/feature-homecallout-section.php:67
+#: inc/elitepress/features/feature-service-section.php:167
+#: inc/elitepress/features/feature-service-section.php:177
+#: inc/elitepress/features/feature-service-section.php:187
+#: inc/elitepress/features/feature-service-section.php:198
+#: inc/elitepress/features/feature-slider-section.php:189
+#: inc/elitepress/features/feature-slider-section.php:198
+#: inc/elitepress/features/feature-slider-section.php:207
+#: inc/elitepress/sections/elitepress-service-section.php:83
+#: inc/elitepress/sections/elitepress-slider-section.php:99
+msgid "Sed gravida"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:29
+msgid ""
+"Enable project section "
+"on home Page"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:38
+msgid "Donec aliquam"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:54
+#: inc/elitepress/features/feature-project-section.php:163
+#: inc/elitepress/features/feature-project-section.php:219
+msgid ""
+"Morbi leo risus, porta "
+"ac consectetur "
+"vestibulum eros cras "
+"mattis consectetur purus "
+"sit..."
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:72
+msgid ""
+"Pellentesque habitant "
+"morbi"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:109
+msgid ""
+"Morbi leo risus, porta "
+"ac consectetur "
+"vestibulum eros cras "
+"\tmattis consectetur "
+"purus sit..."
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:127
+msgid "Fusce justo sapien"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:180
+msgid ""
+"Aliquam auctor metus"
+msgstr ""
+
+#: inc/elitepress/features/feature-project-section.php:234
+msgid "Add more portfolios"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:27
+msgid ""
+"Enable Service section "
+"on front page"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:36
+msgid "Aenean euismod"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:75
+msgid "Service Content"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:162
+#: inc/elitepress/sections/elitepress-service-section.php:72
+msgid "Ipsum pulvinar"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:163
+#: inc/elitepress/features/feature-service-section.php:173
+#: inc/elitepress/features/feature-service-section.php:183
+#: inc/elitepress/features/feature-service-section.php:194
+#: inc/elitepress/sections/elitepress-service-section.php:82
+#: inc/rambo/sections/rambo-child-service-section.php:61
+#: inc/rambo/sections/rambo-child-service-section.php:72
+#: inc/rambo/sections/rambo-child-service-section.php:83
+#: inc/rambo/sections/rambo-child-service-section.php:171
+#: inc/rambo/sections/rambo-child-service-section.php:276
+#: inc/rambo/sections/rambo-child-service-section.php:284
+#: inc/rambo/sections/rambo-child-service-section.php:292
+#: inc/rambo/sections/rambo-child-service-section.php:320
+#: inc/rambo/sections/rambo-child-service-section.php:321
+#: inc/rambo/sections/rambo-child-service-section.php:322
+msgid ""
+"Morbi leo risus, porta "
+"ac consectetur ac, "
+"vestibulum at eros. Cras "
+"mattis consectetur purus "
+"sit amet ferment etiam "
+"porta sem malesuada "
+"magna mollis."
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:172
+#: inc/elitepress/sections/elitepress-service-section.php:72
+msgid "Lorem ipsum"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:182
+#: inc/elitepress/sections/elitepress-service-section.php:72
+msgid "Integer ultricies"
+msgstr ""
+
+#: inc/elitepress/features/feature-service-section.php:193
+#: inc/elitepress/sections/elitepress-service-section.php:72
+msgid "Integer condimentum"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:47
+msgid ""
+"Homepage section settings"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:72
+msgid "Enable home banner"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:86
+msgid "Slider Content"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:89
+msgid "Add new slide"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:90
+msgid "Slide"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:114
+msgid "Animation speed"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:133
+msgid "Slideshow speed"
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:187
+#: inc/elitepress/features/feature-slider-section.php:205
+#: inc/elitepress/sections/elitepress-slider-section.php:89
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur."
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:188
+#: inc/elitepress/features/feature-slider-section.php:197
+#: inc/elitepress/features/feature-slider-section.php:206
+#: inc/elitepress/sections/elitepress-slider-section.php:98
+msgid ""
+"Lorem ipsum dolor sit "
+"amet consectetuer "
+"adipiscing elit."
+msgstr ""
+
+#: inc/elitepress/features/feature-slider-section.php:196
+#: inc/elitepress/sections/elitepress-slider-section.php:89
+msgid ""
+"Vestibulum ut ipsum!"
+msgstr ""
+
+#: inc/elitepress/sections/elitepress-slider-section.php:21
+#: inc/rambo/sections/rambo-child-service-section.php:173
+#: inc/rambo/sections/rambo-service-section.php:63
+#: inc/rambo/sections/rambo-service-section.php:75
+#: inc/rambo/sections/rambo-service-section.php:87
+#: inc/rambo/sections/rambo-service-section.php:99
+#: inc/rambo/sections/rambo-service-section.php:207
+msgid "Read More"
+msgstr ""
+
+#: inc/quality/customizer.php:37
+msgid ""
+"Welcome to Quality theme"
+msgstr ""
+
+#: inc/quality/customizer.php:38
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipiscing elit. Proin "
+"pharetra volutpat "
+"vehicula."
+msgstr ""
+
+#: inc/quality/customizer.php:39
+msgid "Etiam sit amet"
+msgstr ""
+
+#: inc/quality/customizer.php:41
+#: inc/quality/features/feature-service-section.php:38
+#: inc/quality/sections/quality-features-section.php:13
+msgid "Nam suscipit libero"
+msgstr ""
+
+#: inc/quality/customizer.php:42
+msgid ""
+"Lorem Ipsum which looks "
+"reason able. The "
+"generated Lorem Ipsum is "
+"therefore always free."
+msgstr ""
+
+#: inc/quality/customizer.php:44
+#: inc/quality/customizer.php:45
+#: inc/quality/customizer.php:46
+#: inc/quality/customizer.php:47
+#: inc/quality/sections/quality-features-section.php:307
+#: inc/quality/sections/quality-features-section.php:315
+#: inc/quality/sections/quality-features-section.php:323
+#: inc/quality/sections/quality-features-section.php:331
+#: inc/quality/sections/quality-features-section.php:339
+#: inc/quality/sections/quality-features-section.php:347
+#: inc/quality/sections/quality-features-section.php:367
+#: inc/quality/sections/quality-features-section.php:368
+#: inc/quality/sections/quality-features-section.php:369
+#: inc/quality/sections/quality-features-section.php:370
+#: inc/quality/sections/quality-features-section.php:371
+#: inc/quality/sections/quality-features-section.php:372
+msgid "Donec tristique"
+msgstr ""
+
+#: inc/quality/customizer.php:52
+#: inc/quality/customizer.php:53
+#: inc/quality/customizer.php:54
+#: inc/quality/customizer.php:55
+#: inc/rambo/features/feature-slider-section.php:77
+#: inc/rambo/sections/rambo-slider-section.php:49
+#: inc/rambo/sections/rambo-slider-section.php:54
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipiscing elit, sed do "
+"eiusmod tempor "
+"incididunt ut labore et "
+"dolore magna aliqua."
+msgstr ""
+
+#: inc/quality/customizer.php:58
+msgid ""
+"Proin tincidunt tincidunt"
+msgstr ""
+
+#: inc/quality/customizer.php:59
+msgid ""
+"Scelerisque eu lectus."
+msgstr ""
+
+#: inc/quality/customizer.php:61
+#: inc/quality/customizer.php:63
+#: inc/quality/customizer.php:65
+#: inc/quality/customizer.php:67
+#: inc/quality/features/feature-project-section.php:89
+#: inc/quality/features/feature-project-section.php:136
+#: inc/quality/features/feature-project-section.php:184
+#: inc/quality/features/feature-project-section.php:233
+#: inc/quality/features/feature-project-section.php:280
+#: inc/quality/sections/quality-portfolio-section.php:135
+#: inc/quality/sections/quality-portfolio-section.php:137
+#: inc/quality/sections/quality-portfolio-section.php:139
+#: inc/quality/sections/quality-portfolio-section.php:141
+#: inc/quality/sections/quality-portfolio-section.php:143
+msgid "Cras tempus"
+msgstr ""
+
+#: inc/quality/customizer.php:70
+msgid "Proin Tincidunt"
+msgstr ""
+
+#: inc/quality/customizer.php:71
+msgid ""
+"Cras <b>Eros</b> Elit"
+msgstr ""
+
+#: inc/quality/customizer.php:76
+msgid ""
+"<a href=\"https://"
+"wordpress.org\">Proudly "
+"powered by WordPress</a> "
+"| Theme: <a href="
+"\"https://webriti.com\" "
+"rel=\"nofollow"
+"\">Quality</a> by Webriti"
+msgstr ""
+
+#: inc/quality/customizer.php:104
+msgid ""
+"<a href=\"https://"
+"wordpress.org\">Proudly "
+"powered by WordPress</a> "
+"| Theme: <a href="
+"\"https://webriti.com\" "
+"rel=\"nofollow\">Quality "
+"Green</a> by Webriti"
+msgstr ""
+
+#: inc/quality/customizer.php:132
+msgid ""
+"<a href=\"https://"
+"wordpress.org\">Proudly "
+"powered by WordPress</a> "
+"| Theme: <a href="
+"\"https://webriti.com\" "
+"rel=\"nofollow\">Quality "
+"Orange</a> by Webriti"
+msgstr ""
+
+#: inc/quality/customizer.php:158
+msgid ""
+"<a href=\"https://"
+"wordpress.org\">Proudly "
+"powered by WordPress</a> "
+"| Theme: <a href="
+"\"https://webriti.com\" "
+"rel=\"nofollow\">Quality "
+"Blue</a> by Webriti"
+msgstr ""
+
+#: inc/quality/customizer.php:185
+msgid ""
+"<a href=\"https://"
+"wordpress.org\">Proudly "
+"powered by WordPress</a> "
+"| Theme: <a href="
+"\"https://webriti.com\" "
+"rel=\"nofollow\">Heroic</"
+"a> by Webriti"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:6
+msgid "Funfact settings"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:19
+msgid ""
+"Enable Funfact on "
+"homepage."
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:43
+msgid ""
+"Enable funfact image "
+"overlay"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:58
+msgid ""
+"Funfact image overlay "
+"color"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:72
+msgid "Funfact content"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:75
+msgid "Add new funfact"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:76
+msgid "Funfact"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:111
+#: inc/quality/sections/quality-funfact-section.php:57
+#: inc/quality/sections/quality-funfact-section.php:64
+msgid "2500"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:112
+#: inc/quality/sections/quality-funfact-section.php:58
+msgid "Vestibulum gravida"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:118
+msgid "550"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:119
+#: inc/quality/sections/quality-funfact-section.php:65
+msgid "Malesuada Fames"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:124
+#: inc/quality/sections/quality-funfact-section.php:71
+msgid "90%"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:125
+#: inc/quality/sections/quality-funfact-section.php:72
+msgid "Vitae Convallis"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:132
+#: inc/quality/sections/quality-funfact-section.php:78
+msgid "1350"
+msgstr ""
+
+#: inc/quality/features/feature-funfact-section.php:133
+#: inc/quality/sections/quality-funfact-section.php:79
+msgid ""
+"Vestibulum vitae Tellus"
+msgstr ""
+
+#: inc/quality/features/feature-project-section.php:39
+#: inc/quality/sections/quality-portfolio-section.php:14
+msgid ""
+"Vestibulum vitae tellus"
+msgstr ""
+
+#: inc/quality/features/feature-project-section.php:54
+#: inc/quality/sections/quality-portfolio-section.php:15
+msgid ""
+"Orci <b>varius</b> "
+"natoque"
+msgstr ""
+
+#: inc/quality/features/feature-project-section.php:103
+#: inc/quality/features/feature-project-section.php:150
+#: inc/quality/features/feature-project-section.php:198
+#: inc/quality/features/feature-project-section.php:247
+#: inc/quality/features/feature-project-section.php:294
+#: inc/quality/sections/quality-portfolio-section.php:144
+#: inc/quality/sections/quality-portfolio-section.php:145
+#: inc/quality/sections/quality-portfolio-section.php:146
+#: inc/quality/sections/quality-portfolio-section.php:147
+#: inc/quality/sections/quality-portfolio-section.php:148
+msgid "Nunc, Placerat"
+msgstr ""
+
+#: inc/quality/features/feature-service-section.php:29
+msgid ""
+"Enable Services on "
+"homepage."
+msgstr ""
+
+#: inc/quality/features/feature-service-section.php:56
+#: inc/quality/sections/quality-features-section.php:14
+msgid ""
+"Curabitur <b>lacinia</b> "
+"tellus"
+msgstr ""
+
+#: inc/quality/features/feature-service-section.php:80
+#: inc/spasalon/features/feature-service-section.php:80
+msgid "Add new service"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:23
+msgid ""
+"Enable Testimonail on "
+"homepage."
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:44
+#: inc/quality/sections/quality-testimonial-section.php:99
+msgid "Aliquam eget"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:59
+#: inc/quality/sections/quality-testimonial-section.php:100
+msgid ""
+"Magnis <b>Dis</b> "
+"Parturient"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:74
+#: inc/quality/sections/quality-testimonial-section.php:22
+msgid ""
+"Sed ut Perspiciatis Unde "
+"Omnis Iste"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:80
+msgid "Testimonial title"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:88
+msgid ""
+"Sed ut Perspiciatis Unde "
+"Omnis Iste Sed ut "
+"perspiciatis unde omnis "
+"iste natu error sit "
+"voluptatem accu tium\n"
+"\t\tneque fermentum "
+"veposu miten a tempor "
+"nise. Duis autem vel eum "
+"iriure dolor in "
+"hendrerit\n"
+"\t\tin vulputate velit "
+"consequat in velit esse."
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:97
+msgid ""
+"Testimonial description"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:116
+#: inc/quality/sections/quality-testimonial-section.php:25
+msgid "Elementum Nulla"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:122
+msgid "Name"
+msgstr ""
+
+#: inc/quality/features/feature-testimonial-section.php:129
+#: inc/quality/sections/quality-testimonial-section.php:26
+msgid "Vestibulum"
+msgstr ""
+
+#: inc/quality/sections/quality-features-section.php:308
+#: inc/quality/sections/quality-features-section.php:316
+#: inc/quality/sections/quality-features-section.php:324
+#: inc/quality/sections/quality-features-section.php:332
+#: inc/quality/sections/quality-features-section.php:340
+#: inc/quality/sections/quality-features-section.php:348
+#: inc/quality/sections/quality-features-section.php:379
+#: inc/quality/sections/quality-features-section.php:380
+#: inc/quality/sections/quality-features-section.php:381
+#: inc/quality/sections/quality-features-section.php:382
+#: inc/quality/sections/quality-features-section.php:383
+#: inc/quality/sections/quality-features-section.php:384
+#: inc/rambo/sections/rambo-service-section.php:312
+#: inc/rambo/sections/rambo-service-section.php:320
+#: inc/rambo/sections/rambo-service-section.php:328
+#: inc/rambo/sections/rambo-service-section.php:336
+#: inc/rambo/sections/rambo-service-section.php:367
+#: inc/rambo/sections/rambo-service-section.php:368
+#: inc/rambo/sections/rambo-service-section.php:369
+#: inc/rambo/sections/rambo-service-section.php:370
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipisicing elit, sed "
+"dosit amet, consectetur "
+"adipisicing elit, sed do "
+"eiusmod tempor "
+"incididunt ut."
+msgstr ""
+
+#: inc/quality/sections/quality-portfolio-section.php:16
+msgid "View All Portfolios"
+msgstr ""
+
+#: inc/quality/sections/quality-testimonial-section.php:23
+msgid ""
+"Sed ut Perspiciatis Unde "
+"Omnis Iste Sed ut "
+"perspiciatis  unde omnis "
+"iste natu error sit "
+"voluptatem accu tium\n"
+"\t\t\tneque fermentum "
+"veposu miten a tempor "
+"nise. Duis autem vel eum "
+"iriure dolor in "
+"hendrerit in vulputate "
+"velit consequat in velit "
+"esse."
+msgstr ""
+
+#: inc/rambo/features/feature-cta-section.php:8
+msgid ""
+"Call to action top "
+"settings"
+msgstr ""
+
+#: inc/rambo/features/feature-cta-section.php:17
+msgid ""
+"Quis nostrum "
+"exercitationem ullam "
+"corporis suscipit."
+msgstr ""
+
+#: inc/rambo/features/feature-cta-section.php:36
+msgid "Sequi Nesciunt"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:22
+msgid ""
+"Hide project section"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:33
+#: inc/rambo/sections/rambo-project-section.php:10
+msgid "Perspiciatis Unde"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:49
+#: inc/rambo/sections/rambo-project-section.php:11
+msgid ""
+"Maecenas sit amet "
+"tincidunt elit. "
+"Pellentesque habitant "
+"morbi tristique senectus "
+"et netus et Nulla "
+"facilisi."
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:82
+#: inc/rambo/sections/rambo-project-section.php:129
+msgid "Aliquip Ex"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:97
+#: inc/rambo/features/feature-project-section.php:143
+#: inc/rambo/features/feature-project-section.php:189
+#: inc/rambo/features/feature-project-section.php:235
+#: inc/rambo/sections/rambo-project-section.php:130
+#: inc/rambo/sections/rambo-project-section.php:134
+#: inc/rambo/sections/rambo-project-section.php:138
+#: inc/rambo/sections/rambo-project-section.php:142
+msgid ""
+"Duis aute irure dolor in "
+"reprehenderit in "
+"voluptate velit esse "
+"cillum dolore eu fugiat "
+"nulla pariatur."
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:128
+#: inc/rambo/sections/rambo-project-section.php:133
+msgid "Sint Occaecat"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:174
+#: inc/rambo/sections/rambo-project-section.php:137
+msgid "Ut Enim"
+msgstr ""
+
+#: inc/rambo/features/feature-project-section.php:220
+#: inc/rambo/sections/rambo-project-section.php:141
+msgid "Duis aute irure"
+msgstr ""
+
+#: inc/rambo/features/feature-service-section.php:30
+msgid ""
+"Hide service section"
+msgstr ""
+
+#: inc/rambo/features/feature-service-section.php:37
+msgid "Voluptate Velit"
+msgstr ""
+
+#: inc/rambo/features/feature-service-section.php:52
+msgid ""
+"Nemo enim ipsam "
+"voluptatem quia voluptas "
+"sit aspernatur aut odit "
+"aut fugit"
+msgstr ""
+
+#: inc/rambo/features/feature-slider-section.php:27
+msgid "Enable home slider"
+msgstr ""
+
+#: inc/rambo/features/feature-slider-section.php:30
+msgid ""
+"Enable slider on front "
+"page."
+msgstr ""
+
+#: inc/rambo/features/feature-slider-section.php:60
+#: inc/rambo/sections/rambo-slider-section.php:33
+#: inc/rambo/sections/rambo-slider-section.php:38
+msgid ""
+"Sit Voluptatem "
+"Accusantium"
+msgstr ""
+
+#: inc/rambo/features/feature-slider-section.php:101
+#: inc/rambo/sections/rambo-child-service-section.php:62
+#: inc/rambo/sections/rambo-child-service-section.php:73
+#: inc/rambo/sections/rambo-child-service-section.php:84
+#: inc/rambo/sections/rambo-child-service-section.php:324
+#: inc/rambo/sections/rambo-child-service-section.php:325
+#: inc/rambo/sections/rambo-child-service-section.php:326
+#: inc/rambo/sections/rambo-service-section.php:372
+#: inc/rambo/sections/rambo-service-section.php:373
+#: inc/rambo/sections/rambo-service-section.php:374
+#: inc/rambo/sections/rambo-service-section.php:375
+msgid "Sed ut"
+msgstr ""
+
+#: inc/rambo/sections/rambo-child-service-section.php:60
+#: inc/rambo/sections/rambo-child-service-section.php:161
+#: inc/rambo/sections/rambo-child-service-section.php:275
+#: inc/rambo/sections/rambo-child-service-section.php:312
+#: inc/rambo/sections/rambo-service-section.php:311
+#: inc/rambo/sections/rambo-service-section.php:357
+msgid "Minima Veniam"
+msgstr ""
+
+#: inc/rambo/sections/rambo-child-service-section.php:71
+#: inc/rambo/sections/rambo-child-service-section.php:161
+#: inc/rambo/sections/rambo-child-service-section.php:283
+#: inc/rambo/sections/rambo-child-service-section.php:313
+#: inc/rambo/sections/rambo-service-section.php:319
+#: inc/rambo/sections/rambo-service-section.php:358
+msgid "Numquam Eius"
+msgstr ""
+
+#: inc/rambo/sections/rambo-child-service-section.php:82
+#: inc/rambo/sections/rambo-child-service-section.php:161
+#: inc/rambo/sections/rambo-child-service-section.php:291
+#: inc/rambo/sections/rambo-child-service-section.php:314
+#: inc/rambo/sections/rambo-service-section.php:327
+#: inc/rambo/sections/rambo-service-section.php:359
+msgid "Voluptatem Quia"
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:60
+#: inc/rambo/sections/rambo-service-section.php:202
+msgid "Incredibly Flexible"
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:61
+#: inc/rambo/sections/rambo-service-section.php:73
+#: inc/rambo/sections/rambo-service-section.php:85
+#: inc/rambo/sections/rambo-service-section.php:97
+#: inc/rambo/sections/rambo-service-section.php:207
+msgid ""
+"It is a long established "
+"fact that a reader will "
+"be distracted by the "
+"readable content of a "
+"page when looking at its "
+"layout. The point of "
+"using Lorem Ipsum is "
+"that it has a more-or-"
+"less normal distribution "
+"of letters."
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:72
+#: inc/rambo/sections/rambo-service-section.php:202
+msgid "Powerful Admin"
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:84
+#: inc/rambo/sections/rambo-service-section.php:202
+msgid "Easy To Use"
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:96
+#: inc/rambo/sections/rambo-service-section.php:202
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/rambo/sections/rambo-service-section.php:335
+#: inc/rambo/sections/rambo-service-section.php:360
+msgid "Magna Aliqua"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:38
+#: inc/spasalon/sections/spasalon-portfolio-section.php:14
+msgid ""
+"Phasellus a hendrerit "
+"turpis"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:56
+#: inc/spasalon/sections/spasalon-portfolio-section.php:15
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipiscing elit."
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:91
+msgid "Make-up Products"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:106
+#: inc/spasalon/features/feature-project-section.php:159
+#: inc/spasalon/features/feature-project-section.php:214
+#: inc/spasalon/features/feature-project-section.php:269
+#: inc/spasalon/features/feature-project-section.php:323
+#: inc/spasalon/sections/spasalon-portfolio-section.php:179
+#: inc/spasalon/sections/spasalon-portfolio-section.php:183
+#: inc/spasalon/sections/spasalon-portfolio-section.php:187
+#: inc/spasalon/sections/spasalon-portfolio-section.php:191
+#: inc/spasalon/sections/spasalon-portfolio-section.php:195
+msgid ""
+"Cras hendrerit mi quis "
+"nisi semper in sodales "
+"nisl faucibus. Sed quis "
+"quam eu ante ornare "
+"hendrerit."
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:142
+msgid "Golden Cream"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:196
+msgid "Facial Toner"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:251
+msgid "Premium Cleanser"
+msgstr ""
+
+#: inc/spasalon/features/feature-project-section.php:305
+msgid "Silver Cleanser"
+msgstr ""
+
+#: inc/spasalon/features/feature-service-section.php:12
+msgid "Service Settings"
+msgstr ""
+
+#: inc/spasalon/features/feature-service-section.php:28
+msgid ""
+"Enable Home service "
+"section"
+msgstr ""
+
+#: inc/spasalon/features/feature-service-section.php:39
+#: inc/spasalon/sections/spasalon-features-section.php:11
+msgid ""
+"Morbi finibus luctus "
+"lacus"
+msgstr ""
+
+#: inc/spasalon/features/feature-service-section.php:55
+#: inc/spasalon/sections/spasalon-features-section.php:12
+msgid ""
+"In commodo pulvinar "
+"metus, id tristique "
+"massa ultrices at. Nulla "
+"auctor turpis ut mi "
+"pulvinar eu accumsan "
+"risus sagittis. Mauris "
+"nunc ligula, ullamcorper "
+"vitae accumsan eu,congue "
+"in nulla. Cras hendrerit "
+"mi quis nisi semper in "
+"sodales nisl faucibus. "
+"Sed quis quam eu ante "
+"ornare hendrerit."
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:43
+msgid ""
+"Enable Banner strip "
+"section"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:54
+#: inc/spasalon/sections/spasalon-slider-section.php:57
+msgid "Suspendisse"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:61
+msgid "Banner title"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:70
+#: inc/spasalon/sections/spasalon-slider-section.php:58
+msgid "Rutrum"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:78
+msgid "Banner subtitle"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:87
+#: inc/spasalon/sections/spasalon-slider-section.php:59
+msgid ""
+"Donec justo odio, "
+"lobortis eget congue "
+"sed, rutrum sit amet "
+"mauris. Curabitur sed "
+"lectus nulla. Curabitur "
+"sed lectus nulla."
+"lobortis eget congue "
+"sed, rutrum sit amet "
+"mauris. Curabitur sed "
+"lectus nulla rutrum sit "
+"amet mauris."
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:96
+msgid "Banner description"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:105
+#: inc/spasalon/sections/spasalon-slider-section.php:60
+msgid "Aenean quis lorem"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:114
+msgid "Banner call title"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:124
+#: inc/spasalon/sections/spasalon-slider-section.php:61
+msgid "999 999 9999"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:133
+msgid "Banner call number"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:173
+msgid ""
+"Enable Thumbnail section"
+msgstr ""
+
+#: inc/spasalon/features/feature-slider-section.php:193
+#: inc/spasalon/features/feature-slider-section.php:214
+#: inc/spasalon/features/feature-slider-section.php:236
+msgid "Thumbnail Image"
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-features-section.php:58
+#: inc/spasalon/sections/spasalon-features-section.php:339
+#: inc/spasalon/sections/spasalon-features-section.php:396
+msgid "Aenean quis"
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-features-section.php:59
+#: inc/spasalon/sections/spasalon-features-section.php:70
+#: inc/spasalon/sections/spasalon-features-section.php:81
+#: inc/spasalon/sections/spasalon-features-section.php:92
+#: inc/spasalon/sections/spasalon-features-section.php:340
+#: inc/spasalon/sections/spasalon-features-section.php:351
+#: inc/spasalon/sections/spasalon-features-section.php:362
+#: inc/spasalon/sections/spasalon-features-section.php:373
+#: inc/spasalon/sections/spasalon-features-section.php:406
+#: inc/spasalon/sections/spasalon-features-section.php:407
+#: inc/spasalon/sections/spasalon-features-section.php:408
+#: inc/spasalon/sections/spasalon-features-section.php:409
+msgid ""
+"An veritus voluptatum "
+"vim, no duo veritus "
+"ocurreret. Stet rebum "
+"hendrerit pro an, "
+"omnesque salutandi "
+"theophrastus ne pri."
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-features-section.php:69
+#: inc/spasalon/sections/spasalon-features-section.php:350
+#: inc/spasalon/sections/spasalon-features-section.php:397
+msgid "Nullam sapien"
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-features-section.php:80
+#: inc/spasalon/sections/spasalon-features-section.php:361
+#: inc/spasalon/sections/spasalon-features-section.php:398
+msgid "Ullamcorper tortor"
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-features-section.php:91
+#: inc/spasalon/sections/spasalon-features-section.php:372
+#: inc/spasalon/sections/spasalon-features-section.php:399
+msgid ""
+"Scelerisque molestie"
+msgstr ""
+
+#: inc/spasalon/sections/spasalon-portfolio-section.php:178
+#: inc/spasalon/sections/spasalon-portfolio-section.php:182
+#: inc/spasalon/sections/spasalon-portfolio-section.php:186
+#: inc/spasalon/sections/spasalon-portfolio-section.php:190
+#: inc/spasalon/sections/spasalon-portfolio-section.php:194
+msgid "Bibendum mauris"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:26
+msgid ""
+"Enable contact "
+"information"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:44
+msgid ""
+"Contact phone number"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:62
+msgid "Contact email"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:82
+msgid "Services Title"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:91
+msgid ""
+"Orci varius natoque "
+"penatibus et magnis."
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:100
+msgid ""
+"Services Description"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:109
+msgid "Sed mollis neque"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:118
+msgid "Portfolio Title"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:127
+msgid ""
+"Nunc congue nulla sed"
+msgstr ""
+
+#: inc/wallstreet/features/feature-heading-section.php:136
+msgid ""
+"Portfolio Description"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:34
+msgid ""
+"Enable portfolio section "
+"on homepage (project "
+"section)"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:44
+#: inc/wallstreet/features/feature-project-section.php:118
+#: inc/wallstreet/features/feature-project-section.php:184
+#: inc/wallstreet/features/feature-project-section.php:249
+msgid "Aenean eu risus"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:60
+#: inc/wallstreet/features/feature-project-section.php:133
+#: inc/wallstreet/features/feature-project-section.php:199
+#: inc/wallstreet/features/feature-project-section.php:264
+msgid ""
+"Integer pellentesque "
+"dolor molestie, "
+"pellentesque nibh quis, "
+"vulputate lorem."
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:80
+msgid ""
+"Homepage portfolio one"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:110
+msgid ""
+"Homepage portfolio two"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:174
+msgid ""
+"Homepage portfolio three"
+msgstr ""
+
+#: inc/wallstreet/features/feature-project-section.php:241
+msgid ""
+"Homepage portfolio four"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:12
+#: inc/wallstreet/features/feature-service-section.php:32
+msgid ""
+"Enable Service section"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:51
+msgid ""
+"Enable Service Animation"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:59
+msgid "Service one"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:90
+#: inc/wallstreet/features/feature-service-section.php:155
+#: inc/wallstreet/features/feature-service-section.php:219
+msgid "Habitasse platea"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:108
+#: inc/wallstreet/features/feature-service-section.php:173
+#: inc/wallstreet/features/feature-service-section.php:237
+msgid ""
+"Lorem ipsum dolor sit "
+"amet, consectetur "
+"adipisicing elit.Lorem "
+"ipsum dolor sit amet, "
+"consectetur adipisicing "
+"elit dignissim dapib "
+"tumst dign eger porta "
+"nisl."
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:125
+msgid "Service two"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:189
+msgid "Service three"
+msgstr ""
+
+#: inc/wallstreet/features/feature-service-section.php:326
+#: inc/wallstreet/features/feature-service-section.php:439
+msgid "Service Layout"
+msgstr ""
+
+#: inc/wallstreet/features/feature-slider-section.php:7
+msgid ""
+"Banner image settings"
+msgstr ""
+
+#: inc/wallstreet/features/feature-slider-section.php:65
+msgid ""
+"Lorem ipsum dolor sit "
+"amet"
+msgstr ""
+
+#: inc/wallstreet/features/feature-slider-section.php:80
+msgid ""
+"Welcome to WallStreet"
+msgstr ""
+
+#: inc/wallstreet/features/feature-slider-section.php:86
+msgid "Sub title"
+msgstr ""
+
+#: inc/wallstreet/features/feature-slider-section.php:95
+msgid ""
+"Maecenas a blandit "
+"justo. Curabitur "
+"dignissim quam quis "
+"malesuada ultrices. "
+"Vestibulum nisi augue, "
+"ultricies id congue vel."
+msgstr ""

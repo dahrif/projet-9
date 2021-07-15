@@ -1,0 +1,1544 @@
+/*
+ * Right To Left (RTL) CSS
+ *
+ * @package Bravada
+ */
+
+body {
+    direction: rtl;
+}
+
+address{
+    padding-right: 1em;
+    padding-left: 0;
+}
+
+.main li > ul, .main li > ol{
+    margin-right: 2em;
+    margin-left: auto;
+}
+
+dl{
+    margin: 0 0 2em 0 ;
+}
+
+.screen-reader-text:focus{
+    right: 6px;
+    left: auto;
+}
+
+.wp-block-quote.is-large, .wp-block-quote.is-style-large{
+    padding: 2em 5em 2em 2em ;
+}
+
+.wp-block-button .wp-block-button__link::after{
+    right: 0;
+    left: auto;
+}
+
+#site-wrapper{
+    right: 0;
+    left: auto;
+}
+
+.site-header-inside, #access .menu-search-animated .searchform input[type="search"], #colophon-inside, .footer-inside, .lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption, .bravada-landing-page .lp-blocks2 .lp-blocks-inside, .bravada-landing-page .lp-text-inside, .bravada-landing-page .lp-posts-inside, .bravada-landing-page .lp-page-inside, .bravada-landing-page .lp-portfolio-inside, .bravada-landing-page .lp-testimonials-inside, .bravada-landing-page .lp-section-header, .bravada-landing-page .content-widget{
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+#container:not(.bravada-landing-page) .main > *:not(#content-masonry){
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.sidey{
+    float: right;
+}
+
+@media (min-width: 1024px){
+    .bravada-magazine-three #content-masonry{
+        margin-left: -1%;
+        margin-right: -1%;
+    }
+
+    .bravada-magazine-three #content-masonry article.hentry{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+}
+
+#primary{
+    padding-right: 0;
+    padding-left: 3%;
+}
+
+#secondary{
+    padding-left: 0;
+    padding-right: 3%;
+}
+
+#container.three-columns-right #primary{
+    padding-right: 3%;
+    padding-left: 0;
+}
+
+#container.three-columns-left #secondary{
+    padding-right: 0;
+    padding-left: 3%;
+}
+
+.bravada-boxed-layout #primary, .bravada-boxed-layout #secondary{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+#branding{
+    float: right;
+}
+
+#branding .identity{
+    float: right;
+}
+
+#branding .identity + #site-text{
+    margin-right: 0.5em;
+    margin-left: auto;
+}
+
+#site-title {
+    display: inline-block;
+}
+
+#site-title a::before{
+    left: 0;
+    right: auto;
+}
+
+#site-description{
+    clear: right;
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+.site-header-top{
+    right: 100%;
+    left: auto;
+}
+
+@media (max-width: 800px){
+    .site-header-top{
+        right: 0;
+        left: auto;
+    }
+
+    .site-header-top.is-active{
+        right: 0;
+        left: auto;
+    }
+
+}
+
+.site-header-bottom-fixed.is-active .menu-burger{
+    right: 0;
+    left: 0;
+}
+
+.site-header-top .site-header-inside > div + div{
+    margin: 50px 0 0 0 ;
+}
+
+.topmenu ul li[class*="icon-"]::before{
+    margin-left: .8333em;
+    margin-right: auto;
+}
+
+.topmenu ul li a::after{
+    right: 0;
+    left: auto;
+}
+
+#masthead .header-image{
+    background-position: 50% 50%;
+}
+
+.wp-custom-header-video-button.wp-custom-header-video-button{
+    right: 0;
+    left: 0;
+}
+
+.site-header-bottom.header-fixed .site-header-bottom-fixed{
+    right: 0;
+    left: 0;
+}
+
+#access{
+    float: left;
+}
+
+.bravada-menu-left #access{
+    float: right;
+}
+
+#access ul li[class*="icon"]:not(:first-child){
+    padding-right: 2em;
+    padding-left: 0;
+}
+
+#access ul li[class*="icon"]::before{
+    float: right;
+}
+
+#access > div > ul > li > a > span::before{
+    right: -15px;
+    left: 0;
+}
+
+#access > div > ul > li > a:not(:only-child) span{
+    padding-left: .5em;
+    padding-right: 0;
+}
+
+#access > div > ul li > a:not(:only-child) > span::after{
+    left: -.6em;
+    right: auto;
+}
+
+#access > div > ul ul > li a:not(:only-child)::after{
+    right: calc(100% - 6px);
+    left: auto;
+    border-color: transparent #FFF transparent transparent ;
+}
+
+#access > div > ul ul > li:hover > a:not(:only-child)::after{
+    right: 100%;
+    left: auto;
+}
+
+#access > div > ul ul > li a:not(:only-child) > span::after{
+    left: 0.25em;
+    right: auto;
+}
+
+#access > div > ul ul > li:hover > a:not(:only-child) > span::after{
+    left: -0.5em;
+    right: auto;
+}
+
+#access ul li{
+    float: right;
+}
+
+#access ul ul{
+    margin-right: 0;
+}
+
+#access ul ul ul{
+    right: calc(100% + 10px);
+    left: auto;
+}
+
+#access > div > ul > li > ul::before{
+    right: 30%;
+    left: auto;
+    border-color: transparent transparent #FFF transparent ;
+}
+
+#access ul ul li{
+    float: right;
+}
+
+.menu-burger{
+    float: left;
+}
+
+.hamburger{
+    margin: auto 1em auto 0 ;
+}
+
+.hamburger span{
+    left: 0;
+    right: auto;
+}
+
+nav#mobile-menu{
+    right: 0;
+    left: 0;
+}
+
+nav#mobile-menu ul li::before{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.dropdown-toggle{
+    float: left;
+    margin-right: auto;
+}
+
+nav#mobile-menu #nav-cancel{
+    left: 0;
+    right: auto;
+}
+
+nav#mobile-menu #mobile-nav a{
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+.entry-summary .excerpt-fade {
+    margin-right: -3em;
+    margin-left: 0;
+}
+
+#footer-top .footer-inside::before{
+    right: 0;
+    left: 0;
+}
+
+#site-copyright{
+    float: right;
+}
+
+#footer-separator{
+    float: right;
+}
+
+.footermenu{
+    float: right;
+}
+
+.footermenu ul li{
+    float: right;
+}
+
+#colophon .widget-container{
+    float: right;
+}
+
+@media (max-width: 640px){
+    .author-info .author-description{
+        margin-right: 0;
+    }
+
+    #nav-below .nav-previous a{
+        right: 1em;
+        left: auto;
+    }
+
+    #nav-below .nav-next a{
+        left: 1em;
+        right: auto;
+    }
+
+    #content-masonry{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #container:not(.bravada-landing-page) .main > *:not(#content-masonry){
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .post-thumbnail-container .featured-image-meta{
+        right: 0;
+        left: auto;
+    }
+
+    .cryout #site-title a span{
+        padding-left: 0;
+    }
+
+    .footer-inside #toTop{
+        left: 0;
+        right: 0;
+    }
+
+    .cryout #container[class*="three-"] .main, .cryout #container[class*="two-"] .main, .cryout #container[class*="one-"]:not(.bravada-landing-page) .main{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .site-header-inside, #access .menu-search-animated .searchform input[type="search"], #breadcrumbs, #colophon-inside, .footer-inside, #header-page-title{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .cryout #container[class*=column] #primary, .cryout #container[class*=column] #secondary{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .cryout .sidey .widget-container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .comment-form-author, .comment-form-email, .comment-form-url{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .lp-staticslider .lp-staticslider-image{
+        right: 50%;
+        left: auto;
+    }
+
+    .lp-text-hasimage .lp-text-image img{
+        right: 0 !important;
+        left: 0 !important;
+    }
+
+    .lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption, .bravada-landing-page .lp-blocks .lp-blocks-inside, .bravada-landing-page .lp-boxes .lp-boxes-inside, .bravada-landing-page .lp-text-inside, .bravada-landing-page .lp-posts-inside, .bravada-landing-page .lp-page-inside, .bravada-landing-page .lp-portfolio-inside, .bravada-landing-page .lp-testimonials-inside, .bravada-landing-page .lp-section-header, .bravada-landing-page .content-widget{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+}
+
+#colophon.footer-four .widget-container:nth-child(4n+1){
+    padding-right: 0;
+}
+
+#colophon .footer-three .widget-container:nth-child(3n+1){
+    padding-right: 0;
+}
+
+#colophon .footer-two .widget-container:nth-child(2n+1){
+    padding-right: 0;
+}
+
+#colophon .footer-one .widget-container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main article ul:not([class]), .main article ol:not([class]){
+    margin-right: 2em;
+    margin-left: auto;
+}
+
+.main table{
+    margin: 0 0 2em 0 ;
+}
+
+.content-masonry .entry-meta{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.content-masonry .entry-after-image .entry-meta{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.entry-content fieldset{
+    margin: 0 0 2em 0 ;
+}
+
+.entry-content blockquote.left{
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
+    text-align: left;
+}
+
+.entry-content blockquote.right{
+    float: left;
+    margin-left: 0;
+    margin-right: 2em;
+    text-align: right;
+}
+
+.single .main .entry-title{
+    padding: 0 0 10px 0 ;
+}
+
+@media (min-width: 720px){
+    .bravada-magazine-one .main #content-masonry .post-thumbnail-container{
+        float: right;
+    }
+
+    .bravada-magazine-one .main #content-masonry .post-thumbnail-container + .entry-after-image{
+        right: 0;
+        left: auto;
+        float: right;
+        margin-left: 0;
+    }
+
+}
+
+.entry-meta > span{
+    margin-left: .5em;
+    margin-right: auto;
+}
+
+body:not(.single) .entry-meta > span{
+    margin-left: .1em;
+    margin-right: auto;
+}
+
+body:not(.single) .entry-meta .sep{
+    padding-right: .5em;
+    padding-left: 0;
+}
+
+.entry-meta > span.tags .sep{
+    padding-right: 0;
+}
+
+.entry-meta > span.tags > a{
+    margin-left: 0.35em;
+    margin-right: auto;
+}
+
+body:not(.single) .entry-meta.aftertitle-meta > span:not(:last-child)::after{
+    margin-right: .5em;
+    margin-left: auto;
+}
+
+.comments-link{
+    float: left;
+}
+
+.tag-links{
+    margin-right: 2em;
+    margin-left: auto;
+}
+
+.entry-meta > span.edit-link{
+    float: left;
+}
+
+#header-overlay{
+    right: 0;
+    left: auto;
+}
+
+#header-page-title{
+    left: 0;
+    right: 0;
+}
+
+#header-page-title-overlay{
+    right: 0;
+    left: auto;
+}
+
+#header-page-title #breadcrumbs-container{
+    right: 0;
+    left: 0;
+}
+
+#header-page-title .icon-bread-home::before{
+    margin-right: 0.3em;
+    margin-left: auto;
+}
+
+.meta-arrow{
+    right: 0;
+    left: 0;
+}
+
+.author-info .author-avatar{
+    float: right;
+}
+
+.author-info .author-description{
+    margin-right: 40px;
+    margin-left: auto;
+}
+
+.author-info .avatar{
+    padding: 7px 7px 20px 7px ;
+}
+
+#content-masonry{
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+#content-masonry article.hentry{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bravada-magazine-two #content-masonry article.hentry{
+    float: right;
+}
+
+.bravada-magazine-three #content-masonry article.hentry{
+    float: right;
+}
+
+body:not(.single) article.hentry .post-thumbnail-container::after{
+    left: 0;
+    right: 0;
+}
+
+.post-thumbnail-container .featured-image-overlay{
+    right: 0;
+    left: auto;
+}
+
+.post-thumbnail-container .featured-image-overlay::before, .post-thumbnail-container .featured-image-overlay::after{
+    right: 0;
+    left: auto;
+}
+
+.post-thumbnail-container .featured-image-overlay a{
+    right: 0;
+    left: auto;
+}
+
+.main a.post-featured-image:hover{
+    background-position: 50% 0%;
+}
+
+.alignleft, img.alignleft{
+    float: right;
+    margin-left: 2em;
+    margin-right: auto;
+}
+
+.alignright, img.alignright{
+    float: left;
+    margin-right: 2em;
+    margin-left: auto;
+}
+
+.aligncenter, img.aligncenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-link a, .page-link > span > span > em{
+    margin-left: 1px;
+    margin-right: auto;
+}
+
+#nav-below .nav-previous, #nav-below .nav-next{
+    float: right;
+}
+
+@media (max-width: 480px){
+    .related-posts li:last-child{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+#nav-below .nav-previous::before, #nav-below .nav-next::before{
+    right: 0;
+    left: auto;
+}
+
+#nav-below .nav-previous::after, #nav-below .nav-next::after{
+    right: 0;
+    left: auto;
+}
+
+#nav-below .nav-next{
+    text-align: left;
+}
+
+#nav-below .nav-previous a, #nav-below .nav-next a{
+    right: 3em;
+    left: auto;
+}
+
+#nav-below .nav-next a{
+    right: auto;
+    left: 3em;
+}
+
+@media (max-width: 1024px){
+    #nav-below .nav-previous a{
+        right: 2em;
+        left: auto;
+    }
+
+    #nav-below .nav-next a{
+        left: 2em;
+        right: auto;
+    }
+
+    .cryout #breadcrumbs-container{
+        right: calc( 2em + 20px );
+        left: auto;
+    }
+
+    .cryout #container[class*="two-"] #primary, .cryout #container[class*="two-"] #secondary{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+}
+
+#nav-fixed.nav-fixed-show .nav-previous i{
+    right: 0;
+    left: auto;
+}
+
+#nav-fixed.nav-fixed-show .nav-next i{
+    left: 0;
+    right: auto;
+}
+
+#nav-fixed a + a{
+    padding: 17px 44px 17px 20px ;
+}
+
+#nav-fixed .nav-previous a + a{
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+#nav-fixed .nav-next a + a{
+    padding: 17px 20px 17px 44px ;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+#nav-fixed .nav-previous a:hover + a, #nav-fixed .nav-previous a + a:hover{
+    margin-right: 0;
+}
+
+#nav-fixed .nav-next a:hover + a, #nav-fixed .nav-next a + a:hover{
+    margin-left: 0;
+}
+
+#nav-fixed .nav-previous span{
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+#nav-fixed .nav-next span{
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+#nav-fixed .nav-previous i{
+    right: -70px;
+    left: auto;
+}
+
+#nav-fixed .nav-next i{
+    left: -70px;
+    right: auto;
+}
+
+#nav-fixed i::before{
+    right: 50%;
+    left: auto;
+}
+
+#nav-fixed .nav-previous{
+    right: 0;
+    left: auto;
+}
+
+#nav-fixed .nav-next{
+    left: 0;
+    right: auto;
+}
+
+#nav-old-below .nav-previous{
+    float: right;
+}
+
+#nav-old-below .nav-next{
+    float: left;
+}
+
+.lp-staticslider .staticslider-caption, .seriousslider-theme .seriousslider-caption{
+    right: 0;
+    left: 0;
+    text-align: right;
+}
+
+.lp-staticslider::after, .seriousslider-theme::after{
+    right: 0;
+    left: auto;
+}
+
+.animated-title .caption-title-word span.cry-double{
+    right: 0;
+    left: auto;
+}
+
+a.staticslider-button, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button{
+    float: right;
+    padding: 15px 40px 15px 30px ;
+    padding-left: calc(50px - 1em);
+}
+
+a.staticslider-button:hover, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button:hover{
+    padding-left: 44px;
+    padding-left: calc(45px - 1em);
+    padding-right: 25px;
+}
+
+a.staticslider-button::after, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button::after{
+    content: "\e0a2";
+    float: left;
+    margin-right: -20px;
+    margin-left: 0;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+a.staticslider-button:hover::after, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button:hover::after{
+    margin-right: 0;
+}
+
+a.staticslider-button + a.staticslider-button, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button + a.seriousslider-button{
+    margin-right: 1.5em;
+    margin-left: auto;
+}
+
+@media (max-width: 400px){
+    a.staticslider-button + a.staticslider-button, .seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button + a.seriousslider-button{
+        margin-right: 0;
+    }
+
+}
+
+.lp-block{
+    float: right;
+}
+
+.lp-blocks.lp-blocks-rows-1 .lp-block{
+    margin-left: 0;
+}
+
+.lp-blocks.lp-blocks-rows-4 .lp-block:nth-child(4n), .lp-blocks.lp-blocks-rows-3 .lp-block:nth-child(3n), .lp-blocks.lp-blocks-rows-2 .lp-block:nth-child(2n){
+    margin-left: 0;
+}
+
+.lp-block i[class^="blicon"]{
+    right: 0;
+    left: 0;
+}
+
+.lp-block i[class^="blicon"] + i[class^="blicon"]{
+    right: 0;
+    left: auto;
+}
+
+.lp-block .lp-block-title::after{
+    right: -1%;
+    left: auto;
+}
+
+.lp-blocks2 .lp-block{
+    margin-left: 4%;
+    margin-right: auto;
+}
+
+.lp-blocks2.lp-blocks-rows-4 .lp-block{
+    margin-left: 3%;
+    margin-right: auto;
+}
+
+.lp-blocks2 .lp-block-icon{
+    float: right;
+    margin: -1.5em 2.5em 0 0 ;
+}
+
+.main .lp-blocks2 .lp-block-content{
+    text-align: right;
+}
+
+.lp-blocks2 .lp-block-readmore{
+    right: 2.5em;
+    left: auto;
+}
+
+.lp-boxes .lp-boxes-inside::before{
+    right: 2.5em;
+    left: auto;
+}
+
+.lp-box{
+    float: right;
+}
+
+.lp-boxes .lp-boxes-margins .lp-box{
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+.lp-boxes .lp-boxes-margins.lp-boxes-outside .lp-box{
+    margin-left: 1.5%;
+    margin-right: auto;
+}
+
+.lp-boxes.lp-boxes-rows-4 .lp-boxes-margins .lp-box:nth-child(4n), .lp-boxes.lp-boxes-rows-3 .lp-boxes-margins .lp-box:nth-child(3n), .lp-boxes.lp-boxes-rows-2 .lp-boxes-margins .lp-box:nth-child(2n){
+    margin-left: 0;
+}
+
+.lp-box-imagelink{
+    right: 0;
+    left: auto;
+}
+
+.lp-box-image::before{
+    left: 0;
+    right: 0;
+}
+
+.lp-box-readmore{
+    margin: 1.1em 0 .55em 0 ;
+}
+
+.lp-boxes-animated .lp-box .lp-box-content{
+    right: 0;
+    left: auto;
+}
+
+.lp-boxes-animated .box-overlay{
+    right: 0;
+    left: auto;
+}
+
+@media (max-width: 1152px){
+    .site-header-inside, #access .menu-search-animated .searchform input[type="search"], #colophon-inside, .footer-inside{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .cryout #container[class*="three-"] #primary, .cryout #container[class*="three-"] #secondary{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .cryout #container[class*="three-"] .main{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .cryout #container[class*="three-"] .sidey .widget-container{
+        float: right;
+    }
+
+    .cryout #container[class*="three-"] .sidey section.widget-container:nth-of-type(2n+1){
+        margin-left: 5%;
+        margin-right: auto;
+    }
+
+    .three-columns-right #breadcrumbs, .two-columns-right #breadcrumbs{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .lp-staticslider .staticslider-caption, .seriousslider.seriousslider-theme .seriousslider-caption, .bravada-landing-page .lp-blocks .lp-blocks-inside, .bravada-landing-page .lp-boxes .lp-boxes-inside, .bravada-landing-page .lp-text-inside, .bravada-landing-page .lp-posts-inside, .bravada-landing-page .lp-page-inside, .bravada-landing-page .lp-portfolio-inside, .bravada-landing-page .lp-testimonials-inside, .bravada-landing-page .lp-section-header, .bravada-landing-page .content-widget{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+}
+
+.lp-boxes-static .box-overlay{
+    right: 0;
+    left: 0;
+}
+
+.lp-boxes-static.lp-boxes-static2 .lp-box-imagelink{
+    right: 0;
+    left: auto;
+}
+
+.lp-boxes-static.lp-boxes-static2 .lp-box-image:hover .lp-box-imagelink{
+    right: 7.5%;
+    left: auto;
+}
+
+.lp-boxes-static.lp-boxes-static2 .lp-box-image:focus-within .lp-box-imagelink{
+    right: 7.5%;
+    left: auto;
+}
+
+.lp-text-image img{
+    right: -6.5em;
+    left: auto;
+}
+
+.lp-text-hasimage .lp-text-image img, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-image img, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-image img{
+    right: -6.5em;
+    left: auto;
+}
+
+.lp-text-hasimage ~ .lp-text-hasimage .lp-text-image img, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-image img, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-image img{
+    right: auto;
+    left: -6.5em;
+}
+
+.lp-text-hasimage .lp-text-card, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-card, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-card, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-card{
+    text-align: right;
+}
+
+.lp-text-hasimage ~ .lp-text-hasimage .lp-text-card, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-card, .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage ~ .lp-text-hasimage .lp-text-card{
+    float: right;
+}
+
+.lp-port-tax li{
+    float: right;
+}
+
+.lp-testimonials .lp-tt{
+    float: right;
+    margin-left: 4%;
+    margin-right: auto;
+}
+
+.lp-testimonials.lp-testimonials-rows-2 .lp-tt:nth-child(2n), .lp-testimonials.lp-testimonials-rows-3 .lp-tt:nth-child(3n), .lp-testimonials.lp-testimonials-rows-4 .lp-tt:nth-child(4n){
+    margin-left: 0;
+}
+
+.main .lp-tt-title{
+    float: right;
+}
+
+.lp-tt-meta img{
+    float: right;
+}
+
+#cryout_ajax_more_trigger::after, .lp-port-readmore::after{
+    right: 0;
+    left: auto;
+}
+
+#cryout_ajax_more_trigger::before{
+    right: 0;
+    left: auto;
+}
+
+span.entry-format{
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+.main #content-masonry .format-link::after{
+    right: 0;
+    left: 0;
+}
+
+.format-status .avatar{
+    float: right;
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+body .main #content-masonry .post-thumbnail-container span.bl_categ{
+    right: 2em;
+    left: auto;
+    margin-right: 0;
+    margin-left: 2em;
+}
+
+body .main #content-masonry .post-thumbnail-container .comments-link{
+    right: 2em;
+    left: auto;
+    margin-right: 0;
+    margin-left: 2em;
+}
+
+.comment-navigation{
+    padding: 0 0 1.5em 0 ;
+}
+
+.comment-navigation .nav-next, .comment-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-next{
+    float: left;
+}
+
+.main .commentlist{
+    margin-right: 0;
+}
+
+.comment-author{
+    float: right;
+    right: 30px;
+    left: auto;
+}
+
+.comment-meta{
+    left: 30px;
+    right: auto;
+    float: right;
+}
+
+.comment .reply{
+    left: 30px;
+    right: auto;
+    text-align: left;
+}
+
+.comment .reply i{
+    padding-left: .1em;
+    padding-right: 0;
+}
+
+.commentlist .children{
+    margin-right: 1.5em;
+    margin-left: auto;
+}
+
+.children #respond{
+    margin: 0 0 0 4em ;
+}
+
+#comments-list #respond{
+    margin: 0 0 1.5em 0 ;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url{
+    float: right;
+    margin-left: 0;
+}
+
+.comment-form-url{
+    margin-left: 0;
+}
+
+.comment-form-author, .comment-form-email{
+    border-left: 10px solid;
+    border-right: none;
+}
+
+.bravada-comment-icons .comment-form > p > em::before{
+    right: 1em;
+    left: auto;
+}
+
+.bravada-comment-icons:not(.bravada-comment-labels) .comment-form-comment textarea, .bravada-comment-icons:not(.bravada-comment-labels) .comment-form-author input, .bravada-comment-icons:not(.bravada-comment-labels) .comment-form-email input, .bravada-comment-icons:not(.bravada-comment-labels) .comment-form-url input{
+    padding-right: 2.5em;
+    padding-left: 0;
+}
+
+.widget-container{
+    margin: 0 0 2.2em 0 ;
+}
+
+.widget-container ul ul{
+    margin-right: 1em;
+    margin-left: auto;
+}
+
+.widget-title, #comments-title, #reply-title, .related-posts .related-main-title, .main .page-title, #nav-below em, .lp-text .lp-text-title, .lp-boxes-animated .lp-box-title{
+    background-position: right  100%;
+}
+
+#wp-calendar caption{
+    text-align: right;
+}
+
+#wp-calendar th, #wp-calendar td{
+    text-align: right;
+}
+
+#wp-calendar tfoot #next{
+    text-align: left;
+}
+
+.bravada-normalizedtags #content .tagcloud a{
+    margin: 0 0 4px 1px ;
+}
+
+.main .content-empty-page .widget-container:not(:last-child){
+    margin-left: 2em;
+    margin-right: auto;
+}
+
+ul.cryout-wtabs-nav > li, .cryout-wtabs-container > ul > li{
+    float: right;
+}
+
+.cryout-wtab .tab-item-thumbnail{
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.cryout-wtab .tab-item-avatar{
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.cryout-wtab .tab-item-thumbnail::after,  .cryout-wposts .post-item-thumbnail::after{
+    right: 0;
+    left: auto;
+}
+
+.cryout-wtab .thumb-icon.small{
+    right: 8px;
+    left: auto;
+}
+
+.main .related-posts{
+    margin-right: 0;
+}
+
+.related-posts li{
+    float: right;
+    margin-left: 3%;
+    margin-right: auto;
+}
+
+.related-posts li:last-child{
+    margin-left: 0;
+}
+
+.related-thumbnail .related-comments{
+    left: 10px;
+    right: auto;
+}
+
+.related-comments i{
+    right: 0;
+    left: 0;
+}
+
+.widget_cryout_contact address{
+    padding-right: 0;
+}
+
+.widget_cryout_contact address > span i{
+    float: right;
+}
+
+.widget-portfolio-item{
+    float: right;
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+.portfolio-overlay{
+    right: 0;
+    left: auto;
+}
+
+.widget_cryout_getintouch > div i.icon{
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.searchform .searchsubmit{
+    left: .7em;
+    right: auto;
+}
+
+.searchform input[type="search"]{
+    float: right;
+    padding: 0 1.5em 0 3.5em ;
+}
+
+.searchform .searchsubmit i{
+    left: 0;
+    right: 0;
+}
+
+.searchform .searchsubmit i + i{
+    right: 0;
+    left: auto;
+}
+
+#access .menu-search-animated .searchform{
+    left: 0;
+    right: 0;
+}
+
+#access .menu-search-animated .s{
+    left: 0;
+    right: 0;
+}
+
+#access .menu-main-search i.icon-search{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#access .menu-main-search > a{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menu-main-search .icon-cancel{
+    left: 3em;
+    right: auto;
+}
+
+li.menu-footer-search .searchsubmit{
+    left: 0.55em;
+    right: auto;
+}
+
+#mobile-nav .searchform input[type="search"]{
+    padding: 0 1.2em 0.4em 0 ;
+}
+
+#mobile-nav .searchform .searchsubmit{
+    right: 0;
+    left: auto;
+}
+
+.socials a{
+    float: right;
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+.socials a::before, .socials a::after{
+    right: 0;
+    left: 0;
+}
+
+#sfooter{
+    float: left;
+    clear: left;
+}
+
+a#toTop{
+    left: 2em;
+    right: auto;
+}
+
+a#toTop i{
+    right: 0;
+    left: 0;
+}
+
+.icon-back2top::before, .icon-back2top::after{
+    right: 0;
+    left: auto;
+}
+
+.bravada-totop-fixed #toTop{
+    left: 0;
+    right: 0;
+}
+
+#breadcrumbs-container{
+    right: 4em;
+    left: auto;
+}
+
+.bravada-boxed-layout #breadcrumbs{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.icon-bread-home::before{
+    margin-left: .3em;
+    margin-right: auto;
+}
+
+.pagination span, .pagination a{
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+a.continue-reading-link{
+    float: right;
+    padding: 3px 25px 3px 16px ;
+}
+
+a.continue-reading-link:hover{
+    padding-left: 14px;
+    padding-right: 17px;
+}
+
+a.continue-reading-link:focus-within{
+    padding-left: 14px;
+    padding-right: 17px;
+}
+
+i.icon-continue-reading{
+    margin-right: -10px;
+    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.icon-continue-reading::before {
+    content: "\e0a2";
+}
+
+.continue-reading-link:hover i.icon-continue-reading{
+    margin-right: 0;
+}
+
+.continue-reading-link:focus-within i.icon-continue-reading{
+    margin-right: 0;
+}
+
+.entry-content blockquote::before{
+    right: 0;
+    left: 0;
+}
+
+.cryout-preloader{
+    left: 0;
+    right: 0;
+}
+
+.cryout-preloader-inside .bounce1, .cryout-preloader-inside .bounce2{
+    right: 0;
+    left: 0;
+}
+
+.template-contact .template-left-col, .template-contact .template-right-col{
+    float: right;
+}
+
+.template-contact .template-right-col-inside address{
+    padding-right: 0;
+}
+
+.template-contact address > span i{
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-right: 1px;
+    padding-left: 0;
+}
+
+.page-template-template-fullwidth #container.one-column.template-full-width{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.page-template-template-fullwidth #container.one-column.template-full-width article.hentry .article-inner{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.single article.jetpack-portfolio .entry-meta-container{
+    right: 0;
+    left: 0;
+}
+
+.woocommerce-page #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+}
+
+.woocommerce-page #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt{
+    background-position: 0% 50%;
+}
+
+.woocommerce-page #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background-position: 50% 50%;
+}
+
+.woocommerce-page #respond input#submit.alt::after, .woocommerce a.button.alt::after, .woocommerce-page button.button.alt::after, .woocommerce input.button.alt::after{
+    right: 0;
+    left: auto;
+}
+
+.woocommerce span.onsale{
+    right: 0;
+    left: auto;
+}
+
+.woocommerce ul.products li.product .onsale{
+    left: 5px;
+    right: auto;
+}
+
+.woocommerce div.product form.cart div.quantity{
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.woocommerce .quantity .qty{
+    text-align: right;
+}
+
+.woocommerce-thumbnail-container .woocommerce-buttons-container{
+    right: 0;
+    left: 0;
+}
+
+.add_to_cart_button:not(.product_type_variable)::before,  .single-product div.product form.cart .button::before{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.woocommerce nav.woocommerce-pagination ul li{
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+.woocommerce div.product .products > h2::after, .woocommerce .cart-collaterals h2:not([class*=__title])::after{
+    right: 0;
+    left: auto;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text{
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+@media (min-width: 800px){
+    .woocommerce .col2-set, .woocommerce-page .col2-set{
+        float: right;
+        margin-left: 4%;
+        margin-right: auto;
+    }
+
+    #order_review_heading, #order_review{
+        float: right;
+    }
+
+}
+
+.woocommerce.widget_product_categories ul.product-categories li::before{
+    margin-left: 7px;
+    margin-right: auto;
+}
+
+.woocommerce.widget_product_categories ul.product-categories li:hover::before{
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+.main article .woocommerce-MyAccount-navigation > ul{
+    margin-right: 0;
+}
+
+.panel-default > .panel-heading > .panel-title > a::before{
+    left: 25px;
+    right: auto;
+}
+
+.btn + .btn{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.btn::before{
+    right: 0;
+    left: 0;
+}
+
+@media (max-width: 960px){
+    .lp-boxes.lp-boxes-rows-4 .lp-boxes-margins[class*=lp-boxes] .lp-box, .lp-boxes.lp-boxes-rows-3 .lp-boxes-margins[class*=lp-boxes] .lp-box{
+        margin-left: 4%;
+        margin-right: auto;
+    }
+
+    .lp-boxes.lp-boxes-rows-4 .lp-boxes-inside .lp-box:nth-child(2n), .lp-boxes.lp-boxes-rows-3 .lp-boxes-inside .lp-box:nth-child(2n), .lp-boxes.lp-boxes-rows-4 .lp-box:nth-child(2n), .lp-boxes.lp-boxes-rows-3 .lp-box:nth-child(2n){
+        margin-left: 0;
+    }
+
+}

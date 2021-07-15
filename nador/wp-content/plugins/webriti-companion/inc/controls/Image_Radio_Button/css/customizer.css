@@ -1,0 +1,24 @@
+/*BusiProf chid service*/
+#customize-control-busiprof_theme_options-service_effect_layout_setting input,
+#customize-control-busiprof_theme_options-service_rotate_effect_layout_setting input,
+#customize-control-busiprof_theme_options-service_blink_effect_layout_setting input,
+#customize-control-busiprof_theme_options-testimonial_effect_layout_setting input,
+#customize-control-busiprof_theme_options-testimonial_sideline_effect_layout_setting input,
+#customize-control-busiprof_theme_options-testimonial_center_effect_layout_setting input
+{
+    display:none;
+}
+#customize-control-busiprof_theme_options-service_effect_layout_setting .radio-button-label img,
+#customize-control-busiprof_theme_options-service_rotate_effect_layout_setting .radio-button-label img,
+#customize-control-busiprof_theme_options-service_blink_effect_layout_setting .radio-button-label img,
+#customize-control-busiprof_theme_options-testimonial_effect_layout_setting .radio-button-label img,
+#customize-control-busiprof_theme_options-testimonial_sideline_effect_layout_setting .radio-button-label img,
+#customize-control-busiprof_theme_options-testimonial_center_effect_layout_setting .radio-button-label img
+{
+    margin: 2%;
+}
+/*button*/
+.image_radio_button_control .radio-button-label > input:checked + img {
+    border: 3px solid #2885bb;
+}
+/*BusiProf chid service*/

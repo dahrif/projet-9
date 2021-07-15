@@ -1,0 +1,1180 @@
+ 
+/*! spicepress - 15-05-2018 */
+ .spicepress-screen-only,.screen-reader-text,.screen-reader-text span,.ui-helper-hidden-accessible{
+    position:absolute;
+    top:-10000em;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    border:0
+}
+.spicepress-clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+    width:0;
+    height:0
+}
+.dialog-widget-content{
+    background-color:#fff;
+    position:absolute;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -webkit-box-shadow:2px 8px 23px 3px rgba(0,0,0,.2);
+    box-shadow:2px 8px 23px 3px rgba(0,0,0,.2);
+    overflow:hidden
+}
+.dialog-message{
+    font-size:12px;
+    line-height:1.5
+}
+.dialog-type-lightbox{
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,.8);
+    z-index:2;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+.dialog-type-lightbox .dialog-widget-content{
+    margin:auto;
+    width:375px
+}
+.dialog-type-lightbox .dialog-message{
+    padding:0 20px 20px;
+    min-height:50px
+}
+.dialog-type-lightbox .dialog-message,.dialog-type-lightbox .dialog-widget-header{
+    text-align:center
+}
+.dialog-type-lightbox .dialog-buttons-wrapper{
+    border-top:1px solid #e6e9ec;
+    text-align:center
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button{
+    border:none;
+    background:none;
+    font-size:15px;
+    cursor:pointer;
+    padding:13px 0;
+    outline:0
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button:first-child{
+    color:#6d7882
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button.dialog-ok{
+    color:#b01b1b
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button.dialog-take_over{
+    color:#39b54a
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button:active{
+    background-color:rgba(230,233,236,.5)
+}
+.dialog-type-lightbox .dialog-buttons-wrapper>button::-moz-focus-inner{
+    border:0
+}
+.dialog-widget-header{
+    padding:20px 0;
+    font-weight:500
+}
+.dialog-close-button{
+    cursor:pointer;
+    position:absolute;
+    top:30px;
+    right:30px;
+    font-size:15px
+}
+.dialog-close-button:not(:hover){
+    opacity:.4
+}
+.dialog-confirm-widget .dialog-widget-header,.dialog-lightbox-widget .dialog-widget-header{
+    font-size:15px;
+    color:#495157
+}
+.dialog-confirm-widget .dialog-buttons-wrapper>button,.dialog-lightbox-widget .dialog-buttons-wrapper>button{
+    width:50%
+}
+.dialog-confirm-widget .dialog-buttons-wrapper>button:first-child,.dialog-lightbox-widget .dialog-buttons-wrapper>button:first-child{
+    border-right:1px solid #e6e9ec
+}
+.dialog-confirm-widget .dialog-buttons-wrapper>button:hover,.dialog-lightbox-widget .dialog-buttons-wrapper>button:hover{
+    background-color:#f4f6f7
+}
+.dialog-alert-widget .dialog-buttons-wrapper>button{
+    width:100%
+}
+@media (max-width:767px){
+    .dialog-close-button{
+        top:15px;
+        right:15px
+    }
+    body.admin-bar .dialog-close-button{
+        top:40px
+    }
+}
+.spicepress-aspect-ratio-219 .spicepress-fit-aspect-ratio{
+    padding-bottom:42.8571%
+}
+.spicepress-aspect-ratio-169 .spicepress-fit-aspect-ratio{
+    padding-bottom:56.25%
+}
+.spicepress-aspect-ratio-43 .spicepress-fit-aspect-ratio{
+    padding-bottom:75%
+}
+.spicepress-aspect-ratio-32 .spicepress-fit-aspect-ratio{
+    padding-bottom:66.6666%
+}
+.spicepress-aspect-ratio-11 .spicepress-fit-aspect-ratio{
+    padding-bottom:100%
+}
+.spicepress-fit-aspect-ratio{
+    position:relative;
+    height:0
+}
+.spicepress-fit-aspect-ratio iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    border:0
+}
+.spicepress-hidden{
+    display:none
+}
+.flatpickr-calendar{
+    width:280px
+}
+.flatpickr-calendar .flatpickr-current-month span.cur-month{
+    font-weight:300
+}
+.flatpickr-calendar .dayContainer{
+    width:280px;
+    min-width:280px;
+    max-width:280px
+}
+.flatpickr-calendar .flatpickr-days{
+    width:280px
+}
+.flatpickr-calendar .flatpickr-day{
+    max-width:37px;
+    height:37px;
+    line-height:37px
+}
+.spicepress-button{
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -webkit-transition-property:background,color,opacity,-webkit-box-shadow;
+    transition-property:background,color,opacity,-webkit-box-shadow;
+    -o-transition-property:background,color,box-shadow,opacity;
+    transition-property:background,color,box-shadow,opacity;
+    transition-property:background,color,box-shadow,opacity,-webkit-box-shadow;
+    -webkit-transition-duration:.3s;
+    -o-transition-duration:.3s;
+    transition-duration:.3s
+}
+.spicepress-button:hover{
+    border:none
+}
+.spicepress-button:not([disabled]){
+    cursor:pointer
+}
+.spicepress-button:not(.spicepress-button-state) .spicepress-state-icon{
+    display:none
+}
+.spicepress-button.spicepress-button-success{
+    color:#fff
+}
+.spicepress-button.spicepress-button-success[disabled]{
+    background-color:#c2cbd2
+}
+.spicepress-button.spicepress-button-success:not([disabled]){
+    background-color:#39b54a
+}
+.spicepress-button.spicepress-button-success:not([disabled]):hover{
+    opacity:.85;
+    -webkit-box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2)
+}
+.spicepress-button.spicepress-button-success:not([disabled]):active{
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1);
+    box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1)
+}
+.spicepress-button.spicepress-button-warning{
+    background-color:#a4afb7;
+    color:#fff
+}
+.spicepress-button.spicepress-button-warning[disabled]{
+    background-color:#c2cbd2
+}
+.spicepress-button.spicepress-button-warning:not([disabled]):hover{
+    background-color:#b01b1b;
+    opacity:.85;
+    -webkit-box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2)
+}
+.spicepress-button.spicepress-button-warning:not([disabled]):active{
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1);
+    box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1)
+}
+.spicepress-button.spicepress-edit-template{
+    display:inline-block;
+    margin-top:15px;
+    color:#fff
+}
+.spicepress-button.spicepress-button-default{
+    background-color:#a4afb7;
+    color:#fff;
+    font-size:11px;
+    padding:6.5px 15px
+}
+.spicepress-button.spicepress-button-default:hover{
+    background-color:#6d7882;
+    -webkit-box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    box-shadow:0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2)
+}
+.spicepress-button.spicepress-button-default:active{
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1);
+    box-shadow:0 5px 10px rgba(0,0,0,.19),0 3px 3px rgba(0,0,0,.1)
+}
+.spicepress-button.spicepress-button-default:visited{
+    color:#fff
+}
+.spicepress-button.spicepress-button-go-pro{
+    color:#fff;
+    background-color:#fcb92c
+}
+.spicepress-button i{
+    margin-right:10px
+}
+.spicepress-templates-modal .dialog-widget-content{
+    background-color:#f1f3f5;
+    width:100%
+}
+@media (max-width:1439px){
+    .spicepress-templates-modal .dialog-widget-content{
+        max-width:990px
+    }
+}
+@media (min-width:1440px){
+    .spicepress-templates-modal .dialog-widget-content{
+        max-width:1200px
+    }
+}
+.spicepress-templates-modal .dialog-widget-header{
+    padding:0;
+    background-color:#fff;
+    -webkit-box-shadow:0 0 8px rgba(0,0,0,.1);
+    box-shadow:0 0 8px rgba(0,0,0,.1);
+    position:relative;
+    z-index:1
+}
+.spicepress-templates-modal .dialog-buttons-wrapper{
+    display:none
+}
+.spicepress-templates-modal .dialog-message{
+    height:750px;
+    max-height:85vh;
+    overflow:auto;
+    padding:25px 30px 30px
+}
+.spicepress-templates-modal__header{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    height:50px
+}
+.spicepress-templates-modal__header__logo{
+    font-size:15px;
+    line-height:1;
+    text-transform:uppercase;
+    color:#495157;
+    font-weight:700;
+    cursor:pointer
+}
+.spicepress-templates-modal__header__logo-area{
+    text-align:left;
+    padding-left:15px
+}
+.spicepress-templates-modal__header__logo-area>*{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.spicepress-templates-modal__header__logo__icon-wrapper{
+    padding:4px 7px 6px;
+    background-image:-webkit-linear-gradient(225deg,#ef295a,#434363);
+    background-image:-o-linear-gradient(225deg,#ef295a,#434363);
+    background-image:linear-gradient(-135deg,#ef295a,#434363);
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    margin-right:10px
+}
+.spicepress-templates-modal__header__logo i{
+    color:#fff;
+    font-size:10px
+}
+.spicepress-templates-modal__header__items-area{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:reverse;
+    -webkit-flex-direction:row-reverse;
+    -ms-flex-direction:row-reverse;
+    flex-direction:row-reverse
+}
+.spicepress-templates-modal__header__item{
+    position:relative;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+.spicepress-templates-modal__header__item>i{
+    font-size:20px;
+    -webkit-transition:color .5s;
+    -o-transition:color .5s;
+    transition:color .5s;
+    cursor:pointer
+}
+.spicepress-templates-modal__header__item>i:not(:hover){
+    color:#a4afb7
+}
+.spicepress-templates-modal__header__close-modal{
+    width:45px;
+    border-left:1px solid #e6e9ec
+}
+.spicepress-templates-modal__header__close-modal i{
+    font-size:18px
+}
+body.spicepress-editor-active .spicepress-switch-mode-off{
+    display:none
+}
+body.spicepress-editor-active #spicepress-switch-mode-button{
+    background-color:#f7f7f7;
+    color:#555;
+    border-color:#ccc;
+    -webkit-box-shadow:0 1px 0 #ccc!important;
+    box-shadow:0 1px 0 #ccc!important;
+    text-shadow:unset
+}
+body.spicepress-editor-active #spicepress-switch-mode-button:hover{
+    background-color:#e9e9e9
+}
+body.spicepress-editor-active #spicepress-switch-mode-button:active{
+    -webkit-box-shadow:inset 0 1px 0 #ccc;
+    box-shadow:inset 0 1px 0 #ccc;
+    -webkit-transform:translateY(1px);
+    -ms-transform:translateY(1px);
+    transform:translateY(1px)
+}
+body.spicepress-editor-active #spicepress-editor{
+    display:table
+}
+body.spicepress-editor-active #postdivrich{
+    display:none!important
+}
+body.spicepress-editor-inactive #spicepress-editor,body.spicepress-editor-inactive .spicepress-switch-mode-on{
+    display:none
+}
+#adminmenu #toplevel_page_edit-post_type-spicepress_library div.wp-menu-image:before,#adminmenu #toplevel_page_spicepress div.wp-menu-image:before{
+    content:"\e800";
+    font-family:eicons;
+    font-size:14px;
+    margin-top:3px
+}
+#adminmenu #toplevel_page_edit-post_type-spicepress_library a[href="admin.php?page=go_spicepress_pro"],#adminmenu #toplevel_page_spicepress a[href="admin.php?page=go_spicepress_pro"]{
+    color:#d54e21
+}
+#adminmenu #toplevel_page_edit-post_type-spicepress_library .dashicons.dashicons-star-filled,#adminmenu #toplevel_page_spicepress .dashicons.dashicons-star-filled{
+    height:auto
+}
+.spicepress-plugins-gopro{
+    color:#39b54a;
+    font-weight:700
+}
+#spicepress-switch-mode{
+    margin:15px 0
+}
+#spicepress-editor-button{
+    outline:none;
+    cursor:pointer
+}
+#spicepress-editor-button .eicon-spicepress{
+    margin-right:5px
+}
+.spicepress-button{
+    font-size:13px;
+    text-decoration:none;
+    padding:15px 40px
+}
+#spicepress-editor{
+    background-color:#f7f7f7;
+    border:1px solid #ddd;
+    height:300px;
+    width:100%;
+    -webkit-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    transition:all .5s ease
+}
+#spicepress-editor:hover{
+    background-color:#fff
+}
+#spicepress-editor .spicepress-loader-box{
+    position:absolute;
+    -webkit-animation:load 1.8s linear infinite;
+    animation:load 1.8s linear infinite
+}
+#spicepress-editor .spicepress-loader-box:first-of-type{
+    width:20%;
+    height:100%;
+    left:0;
+    top:0
+}
+#spicepress-editor .spicepress-loader-box:not(:first-of-type){
+    right:0;
+    height:20%;
+    width:60%
+}
+#spicepress-editor .spicepress-loader-box:nth-of-type(2){
+    top:0;
+    -webkit-animation-delay:-.45s;
+    animation-delay:-.45s
+}
+#spicepress-editor .spicepress-loader-box:nth-of-type(3){
+    top:40%;
+    -webkit-animation-delay:-.9s;
+    animation-delay:-.9s
+}
+#spicepress-editor .spicepress-loader-box:nth-of-type(4){
+    bottom:0;
+    -webkit-animation-delay:-1.35s;
+    animation-delay:-1.35s
+}
+@-webkit-keyframes load{
+    0%{
+        opacity:.3
+    }
+    50%{
+        opacity:1
+    }
+    to{
+        opacity:.3
+    }
+}
+@keyframes load{
+    0%{
+        opacity:.3
+    }
+    50%{
+        opacity:1
+    }
+    to{
+        opacity:.3
+    }
+}
+#spicepress-editor .spicepress-loader-box{
+    background-color:#a4afb7
+}
+#spicepress-go-to-edit-page-link{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    text-decoration:none
+}
+#spicepress-go-to-edit-page-link.spicepress-animate #spicepress-editor-button,#spicepress-go-to-edit-page-link:not(.spicepress-animate) .spicepress-loader-wrapper{
+    display:none
+}
+.spicepress-loader-wrapper{
+    margin:auto;
+    width:80px
+}
+.spicepress-loader{
+    height:80px;
+    position:relative
+}
+.spicepress-loading-title{
+    color:#a4afb7;
+    text-transform:uppercase;
+    margin-top:15px;
+    font-size:11px;
+    letter-spacing:5px
+}
+.spicepress-button-spinner:before{
+    font:normal 20px/.5 dashicons;
+    speak:none;
+    display:inline-block;
+    padding:0;
+    top:8px;
+    left:-4px;
+    position:relative;
+    vertical-align:top;
+    content:"\f463"
+}
+.spicepress-button-spinner.loading:before{
+    -webkit-animation:rotation 1s infinite linear;
+    animation:rotation 1s infinite linear
+}
+.spicepress-button-spinner.success:before{
+    content:"\f147";
+    color:#46b450
+}
+.spicepress-blank_state{
+    padding:5em 0;
+    margin:auto;
+    max-width:520px;
+    text-align:center;
+    color:#6d7882
+}
+.spicepress-blank_state i{
+    font-size:50px;
+    color:#a4afb7
+}
+.spicepress-blank_state h2{
+    font-family:Roboto,Arial,Helvetica,Verdana,sans-serif;
+    font-size:32px;
+    font-weight:300;
+    color:inherit;
+    margin:50px 0 35px;
+    line-height:1.2
+}
+.spicepress-blank_state p{
+    font-size:16px;
+    font-weight:400;
+    color:#a4afb7;
+    margin-bottom:40px
+}
+.spicepress-blank_state .spicepress-button{
+    display:inline-block
+}
+#available-widgets [class*=spicepress-template] .widget-title:before{
+    content:"\e801";
+    font-family:eicons;
+    font-size:17px
+}
+.spicepress-settings-form-page{
+    padding-top:30px
+}
+._spicepress_settings_update_time,.spicepress-settings-form-page:not(.spicepress-active){
+    display:none
+}
+.notice.spicepress-message{
+    border-left-color:#b7084e!important;
+    padding:20px
+}
+.notice.spicepress-message .spicepress-message-inner{
+    display:table;
+    width:100%
+}
+.notice.spicepress-message .spicepress-message-inner .spicepress-message-action,.notice.spicepress-message .spicepress-message-inner .spicepress-message-content,.notice.spicepress-message .spicepress-message-inner .spicepress-message-icon{
+    display:table-cell;
+    vertical-align:middle
+}
+.notice.spicepress-message .spicepress-message-icon{
+    color:#b7084e;
+    font-size:40px;
+    width:40px
+}
+.notice.spicepress-message .spicepress-message-content{
+    padding:0 20px
+}
+.notice.spicepress-message p{
+    padding:0;
+    margin:0
+}
+.notice.spicepress-message h3{
+    margin:0 0 5px
+}
+.notice.spicepress-message .spicepress-message-action{
+    text-align:right
+}
+.notice.spicepress-message .spicepress-message-action .spicepress-button{
+    background-color:#b7084e;
+    color:#fff;
+    border-color:#7c1337;
+    -webkit-box-shadow:0 1px 0 #7c1337;
+    box-shadow:0 1px 0 #7c1337;
+    padding:5px 30px;
+    height:auto;
+    line-height:20px;
+    text-transform:capitalize
+}
+.notice.spicepress-message .spicepress-message-action .spicepress-button i{
+    padding-right:5px
+}
+.notice.spicepress-message .spicepress-message-action .spicepress-button:hover{
+    background-color:#a0124a
+}
+.notice.spicepress-message .spicepress-message-action .spicepress-button:active{
+    -webkit-box-shadow:inset 0 1px 0 #7c1337;
+    box-shadow:inset 0 1px 0 #7c1337;
+    -webkit-transform:translateY(1px);
+    -ms-transform:translateY(1px);
+    transform:translateY(1px)
+}
+@media (min-width:1200px){
+    .spicepress-message-action{
+        padding-right:10px
+    }
+}
+@media (max-width:600px){
+    .notice.spicepress-message{
+        padding:20px
+    }
+    .notice.spicepress-message .spicepress-message-inner{
+        display:block;
+        text-align:center
+    }
+    .notice.spicepress-message .spicepress-message-inner .spicepress-message-action,.notice.spicepress-message .spicepress-message-inner .spicepress-message-content,.notice.spicepress-message .spicepress-message-inner .spicepress-message-icon{
+        display:block
+    }
+    .notice.spicepress-message .spicepress-message-inner .spicepress-message-action{
+        text-align:center
+    }
+    .notice.spicepress-message .spicepress-message-inner .spicepress-message-icon{
+        width:auto
+    }
+    .notice.spicepress-message .spicepress-message-inner .spicepress-message-content{
+        padding:10px 0
+    }
+}
+#spicepress-system-info{
+    padding:15px
+}
+#spicepress-system-info .spicepress-system-info-section{
+    margin-bottom:10px
+}
+#spicepress-system-info .spicepress-system-info-section>.spicepress-system-info-report-name{
+    padding-left:10px;
+    border-bottom:1px solid #e1e1e1
+}
+#spicepress-system-info .spicepress-system-info-section .widefat{
+    white-space:pre
+}
+#spicepress-system-info .spicepress-system-info-report-name{
+    text-transform:uppercase;
+    font-size:14px;
+    margin:0;
+    line-height:2
+}
+#spicepress-system-info .spicepress-system-info-report-row{
+    overflow:hidden;
+    padding:5px 0
+}
+#spicepress-system-info .spicepress-system-info-report-row>*{
+    float:left
+}
+#spicepress-system-info .spicepress-system-info-field-recommendation,#spicepress-system-info .spicepress-system-info-report-field{
+    padding-left:10px;
+    color:#7f7f7f
+}
+#spicepress-system-info .spicepress-system-info-report-fields{
+    padding-left:20px
+}
+#spicepress-system-info .spicepress-system-info-plugin-name{
+    color:#000
+}
+#spicepress-system-info .spicepress-system-info-plugin-properties{
+    padding:10px
+}
+#spicepress-system-info #spicepress-system-info-raw-code{
+    width:100%;
+    height:200px
+}
+#spicepress-system-info #spicepress-system-info-raw-code-label{
+    padding:5px;
+    display:block
+}
+#spicepress-system-info .spicepress-warning td:first-child{
+    border-left:3px solid #fcb92c
+}
+@-webkit-keyframes spicepress-rotation{
+    0%{
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)
+    }
+    to{
+        -webkit-transform:rotate(359deg);
+        transform:rotate(359deg)
+    }
+}
+@keyframes spicepress-rotation{
+    0%{
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)
+    }
+    to{
+        -webkit-transform:rotate(359deg);
+        transform:rotate(359deg)
+    }
+}
+#spicepress-deactivate-feedback-dialog-wrapper{
+    display:none
+}
+#spicepress-deactivate-feedback-modal .dialog-widget-content{
+    width:550px
+}
+#spicepress-deactivate-feedback-modal .dialog-close-button{
+    -webkit-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}
+#spicepress-deactivate-feedback-modal .dialog-widget-header{
+    padding:18px 30px;
+    -webkit-box-shadow:0 0 8px rgba(0,0,0,.1);
+    box-shadow:0 0 8px rgba(0,0,0,.1);
+    text-align:left;
+    background-color: #b7084e;
+}
+#spicepress-deactivate-feedback-modal .dialog-message{
+    padding:30px 30px 0;
+    text-align:left
+}
+#spicepress-deactivate-feedback-modal .spicepress-deactivate-feedback-dialog-input{
+    float:left;
+    margin:0 15px 0 0;
+    -webkit-box-shadow:none;
+    box-shadow:none
+}
+#spicepress-deactivate-feedback-modal .spicepress-deactivate-feedback-dialog-input:not(:checked)~.spicepress-feedback-text{
+    display:none
+}
+#spicepress-deactivate-feedback-modal .spicepress-deactivate-feedback-dialog-label{
+    display: block;
+    font-size: 14px;
+    color: #3a3737;
+    font-weight: 500;
+}
+#spicepress-deactivate-feedback-modal .spicepress-feedback-text{
+    margin:10px 0 0 30px;
+    padding:7px 10px;
+    font-size:13px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    background-color:#fff;
+    width:92%
+}
+#spicepress-deactivate-feedback-modal .dialog-buttons-wrapper{
+    border-top:none;
+    text-align:left;
+    padding:20px 30px 30px
+}
+#spicepress-deactivate-feedback-modal .dialog-submit{
+    background-color:#b7084e;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    color:#fff;
+    line-height:1;
+    padding:12px 20px;
+    font-size:14px;
+    width:180px;
+    height:38px;
+    font-weight: 500;
+}
+#spicepress-deactivate-feedback-modal .dialog-submit.spicepress-loading:before{
+    display:inline-block;
+    content:"\f463";
+    font:18px dashicons;
+    -webkit-animation:spicepress-rotation 2s infinite linear;
+    animation:spicepress-rotation 2s infinite linear
+}
+#spicepress-deactivate-feedback-modal .dialog-skip{
+    font-size:12px;
+    color:#adadad;
+    background:none;
+    float:right;
+    width:auto
+}
+#spicepress-deactivate-feedback-dialog-header i{
+    color:#b7084e;
+    font-size:19px
+}
+#spicepress-deactivate-feedback-dialog-header-title{
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:700;
+    padding-left:0px;
+    color: #fff;
+}
+#spicepress-deactivate-feedback-dialog-form-caption{
+    font-weight: 700;
+    font-size: 16px;
+    color: #121212;
+    line-height: 1.4;
+}
+#spicepress-deactivate-feedback-dialog-form-body{
+    padding-top:30px
+}
+.spicepress-deactivate-feedback-dialog-input-wrapper{
+    line-height:1.3;
+    overflow:hidden;
+    margin-bottom:15px
+}
+#spicepress-hidden-area{
+    display:none
+}
+#spicepress-import-template-trigger{
+    cursor:pointer
+}
+#spicepress-import-template-area{
+    display:none;
+    margin:50px 0 30px;
+    text-align:center
+}
+#spicepress-import-template-form{
+    display:inline-block;
+    margin-top:30px;
+    padding:30px 50px;
+    background-color:#fff;
+    border:1px solid #e5e5e5
+}
+#spicepress-import-template-title{
+    font-size:18px;
+    color:#555d66
+}
+.form-table:not(.spicepress-maintenance-mode-is-enabled) .spicepress-default-hide{
+    display:none
+}
+.spicepress-maintenance-mode-error{
+    color:red
+}
+#e-dashboard-overview .dashicons{
+    vertical-align:middle;
+    font-size:17px
+}
+#e-dashboard-overview .e-overview__header{
+    display:table;
+    width:100%;
+    -webkit-box-shadow:0 5px 8px rgba(0,0,0,.05);
+    box-shadow:0 5px 8px rgba(0,0,0,.05);
+    margin:0 -12px 8px;
+    padding:0 12px 12px
+}
+#e-dashboard-overview .e-overview__create,#e-dashboard-overview .e-overview__logo,#e-dashboard-overview .e-overview__versions{
+    display:table-cell;
+    vertical-align:middle
+}
+#e-dashboard-overview .e-overview__logo{
+    color:#b7084e;
+    font-size:40px;
+    width:40px
+}
+#e-dashboard-overview .e-overview__versions{
+    padding:0 10px;
+    font-size:.9em;
+    line-height:1.5
+}
+#e-dashboard-overview .e-overview__version{
+    display:block
+}
+#e-dashboard-overview .e-overview__create{
+    text-align:right
+}
+#e-dashboard-overview .e-overview__post{
+    margin-top:10px
+}
+#e-dashboard-overview .e-overview__post-link{
+    display:inline-block
+}
+#e-dashboard-overview .e-overview__badge{
+    background:#39b54a;
+    color:#fff;
+    font-size:.75em;
+    padding:3px 6px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    text-transform:uppercase
+}
+#e-dashboard-overview .e-overview__post-description{
+    margin:0 0 1.5em
+}
+#e-dashboard-overview .e-overview__recently-edited li{
+    color:#72777c
+}
+#e-dashboard-overview .e-overview__feed{
+    font-size:14px;
+    font-weight:500
+}
+#e-dashboard-overview .e-overview__feed .e-overview__post-link{
+    padding-bottom:5px
+}
+#e-dashboard-overview .e-overview__feed .e-overview__heading,#e-dashboard-overview .e-overview__recently-edited .e-overview__heading{
+    font-weight:700;
+    border-bottom:1px solid #eee;
+    margin:0 -12px;
+    padding:6px 12px
+}
+#e-dashboard-overview .e-overview__footer{
+    margin:0 -12px -12px;
+    padding:12px;
+    border-top:1px solid #eee
+}
+#e-dashboard-overview .e-overview__footer ul{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0
+}
+#e-dashboard-overview .e-overview__footer ul li{
+    padding:0 10px;
+    margin:0;
+    border-left:1px solid #ddd
+}
+#e-dashboard-overview .e-overview__footer ul li:first-child{
+    padding-left:0;
+    border:none
+}
+#e-dashboard-overview .e-overview__go-pro a{
+    color:#fcb92c;
+    font-weight:500
+}
+.post-type-spicepress_library #spicepress-template-library-tabs-wrapper{
+    padding-top:2em;
+    margin-bottom:2em
+}
+#spicepress-new-template-modal .dialog-message{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align:left;
+    padding:0 120px;
+    color:#6d7882
+}
+#spicepress-new-template__description{
+    width:35%;
+    max-width:300px;
+    padding-right:100px
+}
+#spicepress-new-template__description__title{
+    font-size:30px;
+    color:#556068
+}
+#spicepress-new-template__description__title span{
+    font-weight:700
+}
+#spicepress-new-template__description__content{
+    font-size:14px;
+    padding:30px 0
+}
+#spicepress-new-template__take_a_tour{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    font-size:15px
+}
+#spicepress-new-template__take_a_tour i{
+    color:#ef295a;
+    font-size:30px
+}
+#spicepress-new-template__take_a_tour a{
+    color:#6d7882;
+    padding-left:10px;
+    text-decoration:none;
+    font-weight:500
+}
+#spicepress-new-template__form{
+    -webkit-box-flex:1;
+    -webkit-flex-grow:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    max-width:440px;
+    padding:55px;
+    background-color:#fff;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -webkit-box-shadow:0 2px 30px 0 rgba(0,0,0,.08);
+    box-shadow:0 2px 30px 0 rgba(0,0,0,.08)
+}
+#spicepress-new-template__form__title{
+    font-size:23px;
+    color:#556068
+}
+#spicepress-new-template__form .spicepress-form-field__label{
+    display:block;
+    margin:25px 0 7px;
+    font-size:14px;
+    line-height:1
+}
+#spicepress-new-template__form .spicepress-form-field input,#spicepress-new-template__form .spicepress-form-field select{
+    width:100%;
+    height:50px;
+    padding:10px;
+    font-size:14px;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    background:none;
+    color:#495157;
+    border:1px solid;
+    outline:none
+}
+#spicepress-new-template__form .spicepress-form-field input:not(:focus),#spicepress-new-template__form .spicepress-form-field select:not(:focus){
+    border-color:#d5dadf
+}
+#spicepress-new-template__form .spicepress-form-field input:focus,#spicepress-new-template__form .spicepress-form-field select:focus{
+    border-color:#a4afb7
+}
+#spicepress-new-template__form .spicepress-form-field__select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer
+}
+#spicepress-new-template__form .spicepress-form-field__select__wrapper{
+    position:relative
+}
+#spicepress-new-template__form .spicepress-form-field__select__wrapper:after{
+    font-family:eicons;
+    content:"\e955";
+    position:absolute;
+    top:50%;
+    right:10px;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%)
+}
+#spicepress-new-template__form__submit{
+    width:100%;
+    height:50px;
+    margin-top:25px
+}
+@media (max-width:1024px){
+    #spicepress-new-template__description{
+        max-width:250px;
+        padding-right:30px
+    }
+}
+@media (max-width:767px){
+    #spicepress-new-template__description{
+        display:none
+    }
+}
+#spicepress-role-manager{
+    max-width:500px;
+    margin-top:50px
+}
+#spicepress-role-manager h3{
+    color:#6d7882;
+    font-weight:400;
+    font-size:22px
+}
+#spicepress-role-manager .spicepress-settings-form-page{
+    padding:0
+}
+#spicepress-role-manager .spicepress-role-row{
+    background:#fff;
+    color:#6d7882;
+    margin-bottom:2px
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-label{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    padding:15px 20px;
+    font-weight:500;
+    cursor:pointer
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-label span.spicepress-role-name{
+    padding-right:20px
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-label span.spicepress-role-toggle{
+    text-align:right;
+    -webkit-box-flex:1;
+    -webkit-flex-grow:1;
+    -ms-flex-positive:1;
+    flex-grow:1
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-label span.spicepress-role-excluded-indicator{
+    color:#a4afb7
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-controls{
+    background-color:#f7f7f7;
+    padding:20px 20px 5px
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-controls>div{
+    margin-bottom:15px
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-controls .spicepress-role-go-pro{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-controls .spicepress-role-go-pro .spicepress-role-go-pro__desc{
+    font-weight:500;
+    font-style:italic
+}
+#spicepress-role-manager .spicepress-role-row .spicepress-role-controls .spicepress-role-go-pro .spicepress-role-go-pro__link{
+    text-align:right;
+    -webkit-box-flex:1;
+    -webkit-flex-grow:1;
+    -ms-flex-positive:1;
+    flex-grow:1
+    
+}
+
+input[type="text"]::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder { 
+    color: #adadad; 
+}
+input[type="text"]::-moz-placeholder, 
+textarea::-moz-placeholder { 
+    color: #adadad; 
+}
+input[type="text"]:-ms-input-placeholder, 
+textarea:-ms-input-placeholder { 
+    color: #adadad; 
+}

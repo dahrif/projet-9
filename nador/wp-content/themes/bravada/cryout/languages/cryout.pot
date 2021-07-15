@@ -1,0 +1,458 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-19 18:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.2"
+
+#: cryout/prototypes.php:810
+msgid "Skip to content"
+msgstr ""
+
+#: cryout/tgmpa-class.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: cryout/tgmpa-class.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. %s: plugin name.
+#: cryout/tgmpa-class.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: cryout/tgmpa-class.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: cryout/tgmpa-class.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: cryout/tgmpa-class.php:334
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:340
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:346
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:352
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:358
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:364
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: cryout/tgmpa-class.php:386 cryout/tgmpa-class.php:827
+#: cryout/tgmpa-class.php:2533 cryout/tgmpa-class.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: cryout/tgmpa-class.php:387 cryout/tgmpa-class.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: cryout/tgmpa-class.php:388 cryout/tgmpa-class.php:2952
+#| msgid "The following plugin was activated successfully:"
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: plugin name.
+#: cryout/tgmpa-class.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. 1: plugin name.
+#: cryout/tgmpa-class.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: dashboard link.
+#: cryout/tgmpa-class.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: cryout/tgmpa-class.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: cryout/tgmpa-class.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: cryout/tgmpa-class.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: cryout/tgmpa-class.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: cryout/tgmpa-class.php:523
+msgid "Update Required"
+msgstr ""
+
+#: cryout/tgmpa-class.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: cryout/tgmpa-class.php:934 cryout/tgmpa-class.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: cryout/tgmpa-class.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: cryout/tgmpa-class.php:1121 cryout/tgmpa-class.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. %s: version number
+#: cryout/tgmpa-class.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2273
+msgid "Required"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2295
+msgid "External Source"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2321
+msgid "Active"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: cryout/tgmpa-class.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: cryout/tgmpa-class.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: cryout/tgmpa-class.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: cryout/tgmpa-class.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: cryout/tgmpa-class.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cryout/tgmpa-class.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2548
+msgid "Source"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2549
+msgid "Type"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2553
+msgid "Version"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2554
+msgid "Status"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: cryout/tgmpa-class.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: cryout/tgmpa-class.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: cryout/tgmpa-class.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2717
+msgid "Install"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2723
+msgid "Update"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2726
+msgid "Activate"
+msgstr ""
+
+#: cryout/tgmpa-class.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: cryout/tgmpa-class.php:2934
+#| msgid "No plugins are available to be activated at this time."
+#| msgid_plural "The following plugins were activated successfully:"
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: cryout/tgmpa-class.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: cryout/tgmpa-class.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: cryout/tgmpa-class.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. 1: plugin name.
+#: cryout/tgmpa-class.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: cryout/tgmpa-class.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: cryout/tgmpa-class.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: cryout/tgmpa-class.php:3509 cryout/tgmpa-class.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: cryout/tgmpa-class.php:3509 cryout/tgmpa-class.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: cryout/tgmpa-class.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: cryout/tgmpa-class.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: cryout/tgmpa-class.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: cryout/tgmpa-class.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: cryout/tgmpa-class.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: cryout/tgmpa-class.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""

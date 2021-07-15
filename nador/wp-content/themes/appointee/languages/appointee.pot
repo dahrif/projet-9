@@ -1,0 +1,778 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Appointee\n"
+"POT-Creation-Date: 2021-05-05 14:27+0530\n"
+"PO-Revision-Date: 2020-12-03 11:49+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/inc/class-appointee-about-page.php:74 admin/inc/include-companion.php:42
+#: admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:75 admin/inc/include-companion.php:43
+#: admin/inc/plugin-include-control.php:41
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:76 admin/inc/include-companion.php:44
+#: admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:87
+msgid "About Appointee Theme"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:88
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:102
+#, php-format
+msgid ""
+"Appointee theme is installed. To take full advantage of the features this theme "
+"has to offer visit our %1$s welcome page %2$s"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:103
+msgid "Get started with Appointee theme"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:224
+msgid "See changelog below:"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:276
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:281
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:289
+msgid "Why Upgrade to PRO?"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:296
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:302
+msgid "Support"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:308 admin/tab-pages/support.php:21
+#: admin/tab-pages/support.php:23
+msgid "Changelog"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:386
+#, php-format
+msgid "Install %s Now"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:388 admin/inc/include-companion.php:82
+msgid "Install & Activate"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:405
+#, php-format
+msgid "Activate %s Now"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:407
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:410
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:520 admin/inc/include-companion.php:81
+#: admin/inc/include-companion.php:98
+msgid "Webriti Companion"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:523
+msgid ""
+"It is highly recommended that you install the Webriti Companion plugin to have "
+"access to the advance Frontpage sections and other theme features"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:527
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/inc/class-appointee-about-page.php:530
+msgid ""
+"it is recommended that you install the Contact Form 7 plugin to show contact "
+"form on pages"
+msgstr ""
+
+#: admin/inc/include-companion.php:80
+msgid ""
+"Webriti Companion plugin is required to take advantage of this theme's features "
+"in the customizer."
+msgstr ""
+
+#: admin/inc/include-companion.php:81
+msgid "Install Webriti Companion Now"
+msgstr ""
+
+#: admin/inc/include-companion.php:97
+msgid ""
+"You have installed Webriti Companion Plugin. Activate it to take advantage of "
+"this theme's features in the customizer."
+msgstr ""
+
+#: admin/inc/include-companion.php:98
+msgid "Activate Webriti Companion now"
+msgstr ""
+
+#: admin/inc/include-companion.php:99
+msgid "Activate Now"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:14
+msgid "Features"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:19 admin/tab-pages/useful_plugins.php:24
+msgid "Top Header Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:23
+msgid "Header Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:27
+msgid "Header Layout"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:31
+msgid "Slider Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:35
+msgid "Widget Area Below Slider"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:39
+msgid "Service Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:43
+msgid "Callout Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:47
+msgid "Portfolio Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:51
+msgid "Testimonials Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:55
+msgid "Team Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:59
+msgid "Clients Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:63 admin/tab-pages/useful_plugins.php:70
+msgid "Latest News Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:67
+msgid "Footer Callout Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:71
+msgid "Footer Credit"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:75
+msgid "Page Templates Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:76
+msgid "Various Page Templates included in the Premium Theme"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:80
+msgid "Mobile Friendly"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:81
+msgid "Responsive layout in all devices"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:85
+msgid "Contact Form Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:89 admin/tab-pages/useful_plugins.php:16
+msgid "SEO Friendly URL"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:90
+msgid ""
+"This feature allows you to rename the custom post type slug names in the URL."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:94 admin/tab-pages/useful_plugins.php:88
+msgid "Multiple Color Schemes"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:95
+msgid ""
+"Enjoy using the 13 preset color schemes. You can also create custom skins "
+"without adding any code."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:99
+msgid "Typography"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:100
+msgid ""
+"You can change the typography of the theme like font-family, font size, etc."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:104
+msgid "Google Maps"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:105
+msgid "Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:110
+msgid "Portfolio"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:111
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 column "
+"layouts. You can also display your project/portfolio by category."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:115
+msgid "About Us Page"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:116
+msgid ""
+"Show team members, your clients and custom content added in the WordPress "
+"editor."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:120
+msgid "Services Page"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:121
+msgid "Show all your services in a single place."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:125
+msgid "Testimonial / Review Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:126
+msgid "Show user feedback on the Homepage and Services page."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:131
+msgid "WPML / Polylang Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:132
+msgid "With the help of WPML, you can make a Multilingual Website."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:136
+msgid "Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:137
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:148
+msgid "Free"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:153
+msgid "Menus + 3 social icons"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:155
+msgid "Unlimited slides"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:157
+msgid "6 services"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:164
+msgid " + no variation"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:166 admin/tab-pages/free_vs_pro.php:210
+msgid "Editable"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:167
+msgid "2 Templates layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:171
+msgid "Custom color skin"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:179
+msgid "WordPress Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:191
+msgid "Pro"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:195
+msgid "Left + Right sidebar areas"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:196
+msgid "Menus +6 social icons + search icon + cart icon"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:197
+msgid "5 header variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:198
+msgid ""
+"Unlimited slides with 5 slide variations [ standard, aside, quote, status and "
+"video]"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:199
+msgid "Left, center and right sidebars"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:200
+msgid "9 services + 5 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:202
+msgid " + background setting"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:203
+msgid "Unlimited projects + 4 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:204
+msgid "Unlimited testimonials + 4 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:205
+msgid "Unlimited teams + 4 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:206
+msgid "8 clients"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:208
+msgid " + 5 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:212
+msgid "31 Templates layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:216
+msgid "Custom color skin + 13 Preset color schemes"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:225
+msgid "Webriti Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:236
+msgid "Get PRO Version Now!"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:12
+msgid "About the Appointee theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:21
+msgid ""
+"This theme is ideal for creating corporate and business websites. There is no "
+"separate premium version of it, as Appointee is a child theme of the "
+"Appointment WordPress theme. The premium version, Appointment PRO has tons of "
+"features: a homepage with many sections where you can feature unlimited "
+"services, portfolios, user reviews, latest news, callout, custom widgets and "
+"much more."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:27
+msgid "Recommended Plugins"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:30
+msgid ""
+"To take full advantage of the theme features you need to install recommended "
+"plugins."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:32
+msgid "Click here"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:37
+msgid "Start Customizing"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:40
+msgid "After activating recommended plugins , now you can start customization."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:43
+msgid "Go to Customizer"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:49
+msgid "Appointee Theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:55
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:61
+msgid "Lite Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:65
+msgid "PRO Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:71
+msgid "Your feedback is valuable to us"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:75
+msgid "Premium Theme Details"
+msgstr ""
+
+#: admin/tab-pages/support.php:12 admin/tab-pages/support.php:14
+msgid "Contact Support"
+msgstr ""
+
+#: admin/tab-pages/support.php:13
+msgid ""
+"We want to make sure you have the best experience using this theme, and that is "
+"why we have gathered all the necessary information here for you. We hope you "
+"will enjoy using this theme as much as we enjoy creating great products."
+msgstr ""
+
+#: admin/tab-pages/support.php:22
+msgid ""
+"Want to get the gist on the latest theme changes? Just consult our changelog "
+"below to get a taste of the recent fixes and features implemented."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:11
+msgid "Why Upgrade to Pro?"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:17
+msgid ""
+"This feature helps you to rename the slug name from the URL, allowing you to "
+"make it SEO friendly."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:25
+msgid ""
+"In the premium version you will get a top header sidebar area where you can use "
+"any widget - all the widgets are styled. We have created a number of widgets in "
+"the theme which you can use here. Specifically, use the theme's Info Widget for "
+"showing your email ID, contact number or any other info of your choice."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:33
+msgid "Multi Level Navigation"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:34
+msgid ""
+"There are beautifully styled navigation/menus in this theme. You can make multi "
+"level menus, which means you can create sub menus."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:42
+msgid "Caption Slider"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:43
+msgid ""
+"You can create unlimited slides which you can control via the settings in "
+"Appearance >> Customize >> Slider settings. The slider supports various post "
+"formats like Standard, Aside, Quote, Chat and Video."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:51
+msgid "Service Features"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:53
+msgid ""
+"You can display any number of Services on the Homepage, with thousands of Font "
+"Awesome Icons available. You can also display a set of services on a separate "
+"page by using the service-related page templates."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:61
+msgid "Portfolio Features"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:62
+msgid ""
+"Showcase any number of projects. This theme provides you with an option to "
+"create 2, 3, 4 column grid layouts by using the portfolio 2, 3, 4 column layout "
+"templates, respectively. If you have a number of projects to present then these "
+"templates are the answer. You can also create categorized portfolios, which "
+"display all the portfolio categories in a single place. In fact, we have coded "
+"this theme so that you can create any number of different portfolios."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:71
+msgid ""
+"This section is often used to display Latest News, Announcements and Events "
+"type content."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:78
+msgid "Testimonial Feature"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:79
+msgid ""
+"Testimonials are a powerful way to gain credibility. You can display "
+"testimonials with a carousel effect."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:89
+msgid ""
+"You will get 13 preset color schemes and you can even create your own favorite "
+"color schemes using the Custom Color Setting in the Customizer."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:97
+msgid "Well Documented"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:98
+msgid ""
+"We provide good knowledgebase articles which will help you to create effective "
+"websites. You can visit these articles via our <a href='https://webriti.com/"
+"help/category/themes/appointment/' target='_blank'>Help Section</a>."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:106
+msgid "Custom widget"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:107
+msgid ""
+"Building a website with our custom widgets is very simple. Just place them "
+"inside the available sidebar or even in the content."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:116
+msgid "Translation Ready"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:117
+msgid ""
+"The theme supports yet another famous plugin: WPML. With the help of this "
+"support you can create a website available in multiple languages."
+msgstr ""
+
+#: function/functions.php:8 function/functions.php:10
+msgid "Sidebar widget area"
+msgstr ""
+
+#: function/functions.php:19 function/functions.php:21
+msgid "Top header left area"
+msgstr ""
+
+#: function/functions.php:29 function/functions.php:31
+msgid "Top header right area"
+msgstr ""
+
+#: function/functions.php:101 function/functions.php:107
+msgid "Footer copyright settings"
+msgstr ""
+
+#: function/functions.php:119 functions.php:84
+msgid ""
+"Proudly powered by <a href=\"https://wordpress.org\">WordPress</a> | Theme: <a "
+"href=\"https://webriti.com\" rel=\"nofollow\">Appointee</a> by Webriti"
+msgstr ""
+
+#: function/functions.php:127
+msgid "Copyright text"
+msgstr ""
+
+#: function/functions.php:142
+msgid "Hide copyright text"
+msgstr ""
+
+#: function/functions.php:151
+msgid "Social Links"
+msgstr ""
+
+#: function/functions.php:172
+msgid "Hide footer social icons"
+msgstr ""
+
+#: function/functions.php:190 function/functions.php:382
+msgid "Facebook URL"
+msgstr ""
+
+#: function/functions.php:207 function/functions.php:242
+#: function/functions.php:276 function/functions.php:311
+#: function/functions.php:399 function/functions.php:437
+#: function/functions.php:472 function/header-widget.php:106
+msgid "Open link in new tab"
+msgstr ""
+
+#: function/functions.php:225 function/functions.php:419
+msgid "Twitter URL"
+msgstr ""
+
+#: function/functions.php:259 function/functions.php:454
+msgid "LinkedIn URL"
+msgstr ""
+
+#: function/functions.php:294
+msgid "Skype URL"
+msgstr ""
+
+#: function/functions.php:333
+msgid "Header settings"
+msgstr ""
+
+#: function/functions.php:341
+msgid "Social links"
+msgstr ""
+
+#: function/functions.php:361
+msgid "Hide Header Social icons"
+msgstr ""
+
+#: function/header-widget.php:16
+msgid "WBR : Header Widget"
+msgstr ""
+
+#: function/header-widget.php:74 function/header-widget.php:100
+msgid "Lorem ipsum: 9-999-999-9999"
+msgstr ""
+
+#: function/header-widget.php:92
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: function/header-widget.php:94
+msgid "fa fa-phone"
+msgstr ""
+
+#: function/header-widget.php:95
+msgid "Find all icons"
+msgstr ""
+
+#: function/header-widget.php:96
+msgid "here"
+msgstr ""
+
+#: function/header-widget.php:98
+msgid "Description"
+msgstr ""
+
+#: function/header-widget.php:102
+msgid "Link"
+msgstr ""
+
+#: header.php:19
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:101
+msgid "Toggle navigation"
+msgstr ""
+
+#: index-news.php:66 index-news.php:94
+msgid "By"
+msgstr ""
+
+#: index-news.php:67 index-news.php:95
+msgid "Posted"
+msgstr ""
+
+#: index-news.php:74 index-news.php:102
+msgid "In"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Appointee"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://webriti.com/appointee-child-theme-detail-page/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A Business theme which is ideal for creating a corporate / business website. "
+"Appointee theme is a child theme of the Appointment theme and is the Purple  "
+"color variation. Those who need a purple  background-based theme can use this "
+"child theme. Appointee theme comes with various locales."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.webriti.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Page"
+msgstr ""

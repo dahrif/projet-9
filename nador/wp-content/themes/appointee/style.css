@@ -1,0 +1,27 @@
+/*
+Theme Name: Appointee
+Theme URI: https://webriti.com/appointee-child-theme-detail-page/
+Author: webriti
+Description: A Business theme which is ideal for creating a corporate / business website. Appointee theme is a child theme of the Appointment theme and is the Purple  color variation. Those who need a purple  background-based theme can use this child theme. Appointee theme comes with various locales.
+Author URI: https://www.webriti.com
+Tags: full-width-template, threaded-comments, two-columns, right-sidebar, sticky-post, custom-menu, translation-ready, blog, footer-widgets, featured-images
+Template: appointment
+Version: 2.0
+Requires at least: 4.5
+Tested up to: 5.7
+Requires PHP: 5.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: appointee
+*/
+.comment-form-section .form-submit input[type="submit"]:focus{
+	color: #000;
+	outline: 1px solid;
+
+}
+@media (max-width: 1100px){
+.header.stickymenu1 .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}}
+.page-title-section { background: url("images/page-title-bg.jpg") no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0); }
+.page-title-section .overlay { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6); }

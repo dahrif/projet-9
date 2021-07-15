@@ -1,0 +1,19 @@
+== Changelog ==
+
+@Version 2.0
+1. Added custom color & typography features.
+2. Changed typography of the theme.
+
+@version 1.0
+1. Removed the Google plus social icon.
+
+@version 0.9
+1. Fixed the review issue.
+2. Fixed the strings as per i18n.
+
+@version 0.2
+1. Fixed the sticky header style issue.
+2. Changed the tested up to version from 5.5 to 5.6.
+
+@Version 0.1
+Released.

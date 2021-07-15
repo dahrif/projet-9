@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+  <domain name="bravada">
+    <project>
+      <source>
+        <exclude>
+            <directory>cryout</directory>
+            <directory>resources</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/bravada.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="cryout">
+    <project name="Framework" slug="cryout">
+      <source>
+        <directory>cryout</directory>
+		<exclude>
+			<directory>cryout/js</directory>
+			<directory>cryout/css</directory>
+		</exclude>
+      </source>
+      <target>
+        <directory>cryout/languages</directory>
+      </target>
+      <template>
+        <file>cryout/languages/cryout.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

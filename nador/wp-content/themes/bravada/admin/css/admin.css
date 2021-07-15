@@ -1,0 +1,293 @@
+/**
+ * Styling for the admin page
+ *
+ * @package Bravada
+ */
+
+.wrap,
+.wrap p {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.wrap h3 {
+	font-size: 1.1em;
+}
+
+#main-page {
+	display: block;
+	float: none;
+	max-width: 1280px;
+}
+
+#lefty  {
+	display: block;
+	float: left;
+	width: calc(90% - 369px);
+	padding: 0 15px;
+	background: transparent;
+	padding: 2em 2%;
+}
+
+#description {
+	margin: 0 auto;
+	line-height: 2;
+	background: #FFF;
+	padding: 2em;
+}
+
+#description-inside {
+	overflow-y: auto;
+	max-height: 400px;
+	padding-right: 20px;
+}
+
+#righty {
+	display: block;
+    float: left;
+    width: 359px;
+    margin-top: 20px;
+}
+
+#righty p,
+#righty span,
+.form-table small,
+#righty ul li {
+	font-size: 14px;
+	color: #444;
+}
+
+#righty h3 {
+	padding: 1em 1.5em;
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: default;
+	margin: 0;
+}
+
+#righty img {
+    display: table;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.postbox .inside,
+.stuffbox .inside {
+	padding: 1em 1.5em 2em;
+	line-height: 1.5;
+}
+
+.postbox .inside p:first-child {
+	margin-top: 0;
+}
+
+.postbox {
+	width: 100%;
+	padding: 1em;
+	border-radius: 0;
+	box-shadow: none;
+	background: rgba(255, 255, 255, .5);
+}
+
+.wrap .button {
+    box-sizing: border-box;
+    display: table;
+    height: auto;
+    margin: 0 auto;
+	text-align: center;
+    padding: 1em 2em;
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	box-shadow: none;
+	border-radius: 0;
+	-webkit-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+}
+
+#cryout-donate .button {
+	border-color: #e9b44c;
+	color: #e9b44c;
+	background: #FFF;
+}
+
+#cryout-donate .button:hover {
+	color: #FFF;
+	background: #e9b44c;
+}
+
+.wrap a {
+	color: #e9b44c;
+}
+
+.wrap .button:hover {
+	border-color: #e9b44c;
+	color: #e9b44c;
+}
+
+/* ADMIN HEADER AND LINKS */
+#admin_header {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#admin_links {
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+#admin_links a {
+	display: inline-block;
+	float: left;
+	width: 33.333%;
+	width: calc(100% / 3);
+	padding: 1em 2em;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	background: #333;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: .3s all;
+	-moz-transition: .3s all;
+	transition: .3s all;
+}
+
+#admin_links a:hover {
+	background: #e9b44c;
+}
+
+#admin_links .blue-button {
+	background: #e9b44c;
+}
+
+#admin_links .blue-button:hover {
+	opacity: .8;
+}
+
+.version {
+    clear: both;
+    color: #888;
+    display: block;
+	text-align: center;
+    font-size: 15px;
+	font-weight: normal;
+}
+
+#customizer-container {
+	display: block;
+	margin: 0 auto;
+}
+
+#customizer {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 1em 2em;
+	border-radius: 0;
+	background: #FFF;
+	text-align: center;
+	-webkit-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+}
+
+#customizer:hover {
+	z-index: 2;
+}
+
+#defaults {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	border-radius: 0;
+}
+
+#defaults input {
+	width: 100%;
+	margin-left: -1px;
+	padding: 1em 2em;
+	border-radius: 0;
+	background: #FFF;
+}
+
+
+.wrap div.updated,
+.wrap div.error {
+	margin-bottom: 50px;
+}
+
+
+/* ==RESPONSIVE ADMIN==
+--------------------------------*/
+
+@media (max-width: 1280px) {
+	#admin_links a,
+	.wrap .third.button,
+	.wrap .third .button {
+		margin: .5em .5em .5em 0;
+		padding: .7em 1em;
+		font-size: 12px;
+	}
+	#admin_header {
+		display: block;
+	}
+	#admin_header img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 1100px) {
+	#lefty  {
+		width: calc(90% - 260px);
+	}
+	#righty  {
+		width: 250px;
+	}
+}
+
+@media (max-width: 800px) {
+	#lefty {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-bottom: 30px;
+	}
+	#righty {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+		width: 90%;
+	}
+	#righty .postbox {
+		border: 1px solid #e5e5e5;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+}
+
+@media (max-width: 620px) {
+	#admin_links a,
+	.wrap .third.button,
+	.wrap .third .button {
+		display: block;
+		float: none;
+	    clear: both;
+	    margin: 1em auto;
+	    text-align: center;
+	}
+	.wrap form.third {
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+/* FIN */

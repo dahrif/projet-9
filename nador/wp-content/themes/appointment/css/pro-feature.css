@@ -1,0 +1,37 @@
+ .appointment-pro-features li
+{
+        line-height: 24px;
+    margin-bottom: 23px;
+    font-size: 14px;
+}
+.appointment-pro-features .appointment-pro-label
+{
+font-weight: bold;
+    background: #a7a7a7;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2px 6px 2px 7px;
+    letter-spacing: .1px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.appointment-pro-button
+{
+     margin-right: 21px !important;
+    width: 95%;
+    text-align: center;
+    letter-spacing: .2px;   
+}
+.appointment-pro-features-customizer hr
+{
+      margin-top: 22px;
+    margin-bottom: 16px;  
+}
+.appointment-pro-content li
+{
+ line-height: 22px;
+ font-size: 14px;
+ font-style: italic;
+ margin-bottom: 12px;   
+}
